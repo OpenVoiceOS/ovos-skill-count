@@ -8,5 +8,11 @@
   ],
   "ordinal.voc": [
     "(order|ordered|ordinal) number[s]"
+  ],
+  "long_scale.voc": [
+    "long scale"
+  ],
+  "short_scale.voc": [
+    "short scale"
   ]
 }
