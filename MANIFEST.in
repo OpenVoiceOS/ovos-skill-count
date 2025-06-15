@@ -1,0 +1,2 @@
+recursive-include ovos_skill_count/locale *
+include *.txt

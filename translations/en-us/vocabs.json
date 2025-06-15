@@ -1,0 +1,12 @@
+{
+  "infinity.voc": [
+    "forever",
+    "infinity"
+  ],
+  "cardinal.voc": [
+    "cardinal number[s]"
+  ],
+  "ordinal.voc": [
+    "(order|ordered|ordinal) number[s]"
+  ]
+}
