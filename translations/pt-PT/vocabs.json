@@ -4,15 +4,15 @@
     "infinito"
   ],
   "cardinal.voc": [
-    null
+    "números cardinais"
   ],
   "ordinal.voc": [
-    null
+    "números (ordinais|ordenados|por ordem("
   ],
   "long_scale.voc": [
-    null
+    "(longa escala|escala longa)"
   ],
   "short_scale.voc": [
-    null
+    "(curta escala|escala curta)"
   ]
 }
