@@ -41,13 +41,23 @@ class CountSkill(OVOSSkill):
         sess = SessionManager.get(message)
         number = message.data.get("number")
         utterance = message.data.get("utterance")
-        short_scale = message.data.get("short_scake") or self.settings.get("short_scale", False)
+        use_short = (not self.voc_match(utterance, "long_scale", lang=sess.lang)
+                     and self.voc_match(utterance, "short_scale", lang=sess.lang))
+        short_scale = message.data.get("short_scale", use_short) # TODO - default per language if not explicitly set
         if number is None:
-            number = extract_number(utterance, lang=sess.lang,
-                                    short_scale=short_scale,
-                                    ordinals=True)
+            try:
+                number = extract_number(utterance, lang=sess.lang,
+                                        short_scale=short_scale,
+                                        ordinals=True)
+            except:
+                number = None
         else:
             number = int(number)
+
+        if number is None:
+            # TODO - prompt user instead with get_response
+            self.speak_dialog("failed_extract_number")
+            return
 
         ordinal = (not self.voc_match(utterance, "cardinal", lang=sess.lang) and
                     self.voc_match(utterance, "ordinal", lang=sess.lang))
@@ -58,7 +68,6 @@ class CountSkill(OVOSSkill):
                 if not self.active_sessions[sess.session_id]:
                     self.log.debug("Counting aborted")
                     return
-                print(n)
                 self.speak_n(n, lang=sess.lang, short_scale=short_scale, ordinals=ordinal)
                 time.sleep(1)
                 n += 1
@@ -67,7 +76,6 @@ class CountSkill(OVOSSkill):
                 if not self.active_sessions[sess.session_id]:
                     self.log.debug("Counting aborted")
                     return
-                print(n)
                 self.speak_n(n, lang=sess.lang, short_scale=short_scale, ordinals=ordinal)
                 time.sleep(1)
 
