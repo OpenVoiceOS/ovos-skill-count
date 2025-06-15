@@ -1,0 +1,18 @@
+{
+  "infinity.voc": [
+    "para sempre",
+    "infinito"
+  ],
+  "cardinal.voc": [
+    "números cardinais"
+  ],
+  "ordinal.voc": [
+    "números (ordinais|ordenados|por ordem("
+  ],
+  "long_scale.voc": [
+    "(longa escala|escala longa)"
+  ],
+  "short_scale.voc": [
+    "(curta escala|escala curta)"
+  ]
+}
