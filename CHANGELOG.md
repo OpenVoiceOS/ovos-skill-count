@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.2a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a2) (2025-06-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2a1...0.0.2a2)
+
+**Merged pull requests:**
+
+- pt-pt/translate [\#3](https://github.com/OpenVoiceOS/ovos-skill-count/pull/3) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
 ## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a1) (2025-06-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.1...0.0.2a1)
