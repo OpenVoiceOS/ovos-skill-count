@@ -1,0 +1,18 @@
+{
+  "infinity.voc": [
+    "für immer",
+    "unendlich"
+  ],
+  "cardinal.voc": [
+    "Kardinalzahl[en]"
+  ],
+  "ordinal.voc": [
+    "(Reihenfolge|geordnete|ordinale) Zahl[en]"
+  ],
+  "long_scale.voc": [
+    "lange Skala"
+  ],
+  "short_scale.voc": [
+    "kurze Skala"
+  ]
+}
