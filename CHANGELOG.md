@@ -1,21 +1,12 @@
 # Changelog
 
-## [0.0.2a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a2) (2025-06-15)
+## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a1) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2a1...0.0.2a2)
-
-**Merged pull requests:**
-
-- pt-pt/translate [\#4](https://github.com/OpenVoiceOS/ovos-skill-count/pull/4) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- pt-pt/translate [\#3](https://github.com/OpenVoiceOS/ovos-skill-count/pull/3) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
-## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a1) (2025-06-15)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.1...0.0.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2...0.0.3a1)
 
 **Merged pull requests:**
 
-- fix: better error handling [\#1](https://github.com/OpenVoiceOS/ovos-skill-count/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- chore: Configure Renovate [\#12](https://github.com/OpenVoiceOS/ovos-skill-count/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
