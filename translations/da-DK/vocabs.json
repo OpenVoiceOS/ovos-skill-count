@@ -1,0 +1,18 @@
+{
+  "infinity.voc": [
+    "for altid",
+    "uendelighed"
+  ],
+  "cardinal.voc": [
+    "kardinaltal"
+  ],
+  "ordinal.voc": [
+    "(orden|ordnet|ordinal) tal"
+  ],
+  "long_scale.voc": [
+    "lang skala"
+  ],
+  "short_scale.voc": [
+    "kort skala"
+  ]
+}
