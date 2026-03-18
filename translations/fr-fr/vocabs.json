@@ -1,0 +1,20 @@
+{
+  "infinity.voc": [
+    "à l'infini",
+    "indéfiniment"
+  ],
+  "cardinal.voc": [
+    "nombre cardinal",
+    "nombres cardinaux"
+  ],
+  "ordinal.voc": [
+    "nombre ordinal",
+    "nombres ordinaux"
+  ],
+  "long_scale.voc": [
+    "échelle longue"
+  ],
+  "short_scale.voc": [
+    "échelle courte"
+  ]
+}
