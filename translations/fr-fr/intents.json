@@ -1,0 +1,20 @@
+{
+  "count_to_N.intent": [
+    "compte jusqu'à #",
+    "compte jusqu'à ##",
+    "compte jusqu'à ###",
+    "compte jusqu'à ####",
+    "compte jusqu'à #####",
+    "compte jusqu'à ######",
+    "compte à l'infini",
+    "compte indéfiniment",
+    "compte jusqu'à # en échelle longue",
+    "compte jusqu'à # en échelle courte",
+    "compte jusqu'à ## en échelle longue",
+    "compte jusqu'à ## en échelle courte",
+    "compte jusqu'à # avec les nombres cardinaux",
+    "compte jusqu'à # avec les nombres ordinaux",
+    "compte à l'infini avec les nombres cardinaux",
+    "compte à l'infini avec les nombres ordinaux"
+  ]
+}
