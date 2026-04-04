@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.3a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a3) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.3a2...0.0.3a3)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#32](https://github.com/OpenVoiceOS/ovos-skill-count/pull/32) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#31](https://github.com/OpenVoiceOS/ovos-skill-count/pull/31) ([JarbasAl](https://github.com/JarbasAl))
+- Add French count locale [\#26](https://github.com/OpenVoiceOS/ovos-skill-count/pull/26) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.3a1...0.0.3a2)
