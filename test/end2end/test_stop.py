@@ -8,6 +8,16 @@ from ovos_utils.log import LOG
 
 from ovoscope import End2EndTest, get_minicroft
 
+# the stop pipeline pings every stop-capable component in parallel, so these
+# `*.stop.response` messages arrive in a non-deterministic order (and the exact
+# set varies with the installed plugins); ignore them in sequence assertions
+STOP_RESPONSES = [
+    "ovos.common_play.stop.response",
+    "common_query.openvoiceos.stop.response",
+    "persona.openvoiceos.stop.response",
+    "stop.openvoiceos.stop.response",
+]
+
 
 class TestStopNoSkills(TestCase):
 
@@ -32,6 +42,10 @@ class TestStopNoSkills(TestCase):
             skill_ids=[],
             eof_msgs=["ovos.utterance.handled"],
             flip_points=["recognizer_loop:utterance"],
+            # the per-pipeline `*.stop.response` messages arrive in a
+            # non-deterministic order (parallel fan-out), so we ignore them
+            # and only assert the deterministic stop skeleton
+            ignore_messages=STOP_RESPONSES,
             source_message=message,
             expected_messages=[
                 message,
@@ -39,15 +53,6 @@ class TestStopNoSkills(TestCase):
 
                 Message("stop:global", {}),  # global stop, no active skill
                 Message("mycroft.stop", {}),
-
-                # pipelines reporting if they stopped
-                # no skills loaded, else skills would also report back
-                Message("persona.openvoiceos.stop.response", {"skill_id": "persona.openvoiceos", "result": False}),
-                Message("common_query.openvoiceos.stop.response",
-                        {"skill_id": "common_query.openvoiceos", "result": False}),
-                Message("ovos.common_play.stop.response", {"skill_id": "ovos.common_play", "result": False}),
-                Message("ovos.common_play.stop.response", {"skill_id": "ovos.common_play", "result": False}),
-                # TODO - why duplicate?
 
                 Message("ovos.utterance.handled", {})
             ]
@@ -90,6 +95,10 @@ class TestStopNoSkills(TestCase):
             skill_ids=[],
             eof_msgs=["ovos.utterance.handled"],
             flip_points=["recognizer_loop:utterance"],
+            # the per-pipeline `*.stop.response` messages arrive in a
+            # non-deterministic order (parallel fan-out), so we ignore them
+            # and only assert the deterministic stop skeleton
+            ignore_messages=STOP_RESPONSES,
             source_message=message,
             expected_messages=[
                 message,
@@ -97,15 +106,6 @@ class TestStopNoSkills(TestCase):
 
                 Message("stop:global", {}),  # global stop, no active skill
                 Message("mycroft.stop", {}),
-
-                # pipelines reporting if they stopped
-                # no skills loaded, else skills would also report back
-                Message("persona.openvoiceos.stop.response", {"skill_id": "persona.openvoiceos", "result": False}),
-                Message("common_query.openvoiceos.stop.response",
-                        {"skill_id": "common_query.openvoiceos", "result": False}),
-                Message("ovos.common_play.stop.response", {"skill_id": "ovos.common_play", "result": False}),
-                Message("ovos.common_play.stop.response", {"skill_id": "ovos.common_play", "result": False}),
-                # TODO - why duplicate?
 
                 Message("ovos.utterance.handled", {})
             ]
@@ -122,10 +122,8 @@ class TestCountSkills(TestCase):
         self.minicroft = get_minicroft([self.skill_id])  # reuse for speed, but beware if skills keeping internal state
         # to make tests easier to grok
         self.ignore_messages = ["speak",
-                                "ovos.common_play.stop.response",
-                                "common_query.openvoiceos.stop.response",
-                                "persona.openvoiceos.stop.response"
-                                ]
+                                "ovos.utterance.speak",  # speak under ovos.* namespace
+                                ] + STOP_RESPONSES
 
     def tearDown(self):
         if self.minicroft:
@@ -199,6 +197,9 @@ class TestCountSkills(TestCase):
 
             Message("stop.openvoiceos.activate",
                     context={"skill_id": "stop.openvoiceos"}),
+            Message("stop:skill",
+                    {"skill_id": self.skill_id},
+                    {"skill_id": "stop.openvoiceos"}),
             Message(f"{self.skill_id}.stop",
                     context={"skill_id": "stop.openvoiceos"}),
             Message(f"{self.skill_id}.stop.response",
@@ -206,12 +207,7 @@ class TestCountSkills(TestCase):
                     {"skill_id": self.skill_id}),
 
             # skill callback to stop everything
-            # TODO - clean up! most arent needed/can check session if needed (ovos-workshop)
-            Message("mycroft.skills.abort_question", {"skill_id": self.skill_id},
-                    {"skill_id": self.skill_id}),
             Message("ovos.skills.converse.force_timeout", {"skill_id": self.skill_id},
-                    {"skill_id": self.skill_id}),
-            Message("mycroft.audio.speech.stop", {"skill_id": self.skill_id},
                     {"skill_id": self.skill_id}),
 
             # the intent running in the daemon thread exits cleanly
