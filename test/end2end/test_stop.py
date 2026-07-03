@@ -170,10 +170,10 @@ class TestCountSkills(TestCase):
 
             # INTENT §8.1: dispatcher lifecycle brackets the skill intent handler
             Message("ovos.intent.matched",
-                    {"intent_name": "ovos-skill-count.openvoiceos:count_to_N.intent"}),
-            Message("ovos.intent.handler.start", {"intent_name": "count_to_N.intent"}),
+                    {"intent_name": "ovos-skill-count.openvoiceos:count_to_n.intent"}),
+            Message("ovos.intent.handler.start", {"intent_name": "count_to_n.intent"}),
 
-            Message("ovos-skill-count.openvoiceos:count_to_N.intent", {}),  # intent triggers
+            Message("ovos-skill-count.openvoiceos:count_to_n.intent", {}),  # intent triggers
 
             Message("mycroft.skill.handler.start", {
                 "name": "CountSkill.handle_how_are_you_intent"
@@ -184,7 +184,7 @@ class TestCountSkills(TestCase):
                 "name": "CountSkill.handle_how_are_you_intent"
             }),
 
-            Message("ovos.intent.handler.complete", {"intent_name": "count_to_N.intent"}),
+            Message("ovos.intent.handler.complete", {"intent_name": "count_to_n.intent"}),
             Message("ovos.utterance.handled", {})
         ]
         test = End2EndTest(
