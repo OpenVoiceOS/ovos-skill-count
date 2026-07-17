@@ -51,9 +51,17 @@ class TestStopNoSkills(TestCase):
                 message,
                 Message("stop.openvoiceos.activate", {}),  # stop pipeline counts as active_skill
 
-                Message("stop:global", {}),  # global stop, no active skill
-                Message("mycroft.stop", {}),
+                # INTENT §8.1: the dispatcher announces the resolved intent and
+                # brackets the handler with the ovos.intent.* lifecycle
+                Message("ovos.intent.matched", {"intent_name": "stop:global"}),
+                Message("ovos.intent.handler.start", {"intent_name": "global"}),
 
+                Message("stop:global", {}),  # global stop, no active skill
+                Message("mycroft.skill.handler.start", {"name": "StopService.handle_global_stop"}),
+                Message("mycroft.stop", {}),
+                Message("mycroft.skill.handler.complete", {"name": "StopService.handle_global_stop"}),
+
+                Message("ovos.intent.handler.complete", {"intent_name": "global"}),
                 Message("ovos.utterance.handled", {})
             ]
         )
@@ -76,7 +84,8 @@ class TestStopNoSkills(TestCase):
             expected_messages=[
                 message,
                 Message("mycroft.audio.play_sound", {"uri": "snd/error.mp3"}),
-                Message("complete_intent_failure", {}),
+                # INTENT §9.3: the intent layer reports the miss as ovos.intent.unmatched
+                Message("ovos.intent.unmatched", {}),
                 Message("ovos.utterance.handled", {}),
             ]
         )
@@ -104,9 +113,17 @@ class TestStopNoSkills(TestCase):
                 message,
                 Message("stop.openvoiceos.activate", {}),  # stop pipeline counts as active_skill
 
-                Message("stop:global", {}),  # global stop, no active skill
-                Message("mycroft.stop", {}),
+                # INTENT §8.1: the dispatcher announces the resolved intent and
+                # brackets the handler with the ovos.intent.* lifecycle
+                Message("ovos.intent.matched", {"intent_name": "stop:global"}),
+                Message("ovos.intent.handler.start", {"intent_name": "global"}),
 
+                Message("stop:global", {}),  # global stop, no active skill
+                Message("mycroft.skill.handler.start", {"name": "StopService.handle_global_stop"}),
+                Message("mycroft.stop", {}),
+                Message("mycroft.skill.handler.complete", {"name": "StopService.handle_global_stop"}),
+
+                Message("ovos.intent.handler.complete", {"intent_name": "global"}),
                 Message("ovos.utterance.handled", {})
             ]
         )
@@ -123,6 +140,14 @@ class TestCountSkills(TestCase):
         # to make tests easier to grok
         self.ignore_messages = ["speak",
                                 "ovos.utterance.speak",  # speak under ovos.* namespace
+                                # TTS playback boundaries (AUDIO-1 §5) fire once per
+                                # spoken number and race with the counting daemon, so
+                                # their count and position are non-deterministic;
+                                # the speech.stop that silences an in-flight number
+                                # only fires when playback is active at stop time
+                                "recognizer_loop:audio_output_start",
+                                "recognizer_loop:audio_output_end",
+                                "mycroft.audio.speech.stop",
                                 ] + STOP_RESPONSES
 
     def tearDown(self):
@@ -142,16 +167,24 @@ class TestCountSkills(TestCase):
         activate_skill = [
             message,
             Message("ovos-skill-count.openvoiceos.activate", {}),  # skill is activated
+
+            # INTENT §8.1: dispatcher lifecycle brackets the skill intent handler
+            Message("ovos.intent.matched",
+                    {"intent_name": "ovos-skill-count.openvoiceos:count_to_N.intent"}),
+            Message("ovos.intent.handler.start", {"intent_name": "count_to_N.intent"}),
+
             Message("ovos-skill-count.openvoiceos:count_to_N.intent", {}),  # intent triggers
 
             Message("mycroft.skill.handler.start", {
                 "name": "CountSkill.handle_how_are_you_intent"
             }),
-            # here would be N speak messages, but we ignore them in this test
+            # here would be N speak messages + their audio playback boundaries,
+            # but we ignore them in this test
             Message("mycroft.skill.handler.complete", {
                 "name": "CountSkill.handle_how_are_you_intent"
             }),
 
+            Message("ovos.intent.handler.complete", {"intent_name": "count_to_N.intent"}),
             Message("ovos.utterance.handled", {})
         ]
         test = End2EndTest(
@@ -197,8 +230,18 @@ class TestCountSkills(TestCase):
 
             Message("stop.openvoiceos.activate",
                     context={"skill_id": "stop.openvoiceos"}),
+
+            # INTENT §8.1: dispatcher lifecycle brackets the stop handler
+            Message("ovos.intent.matched", {"intent_name": "stop:skill"},
+                    {"skill_id": "stop.openvoiceos"}),
+            Message("ovos.intent.handler.start", {"intent_name": "skill"},
+                    {"skill_id": "stop.openvoiceos"}),
+
             Message("stop:skill",
                     {"skill_id": self.skill_id},
+                    {"skill_id": "stop.openvoiceos"}),
+            Message("mycroft.skill.handler.start",
+                    {"name": "StopService.handle_skill_stop"},
                     {"skill_id": "stop.openvoiceos"}),
             Message(f"{self.skill_id}.stop",
                     context={"skill_id": "stop.openvoiceos"}),
@@ -206,17 +249,19 @@ class TestCountSkills(TestCase):
                     {"skill_id": self.skill_id, "result": True},
                     {"skill_id": self.skill_id}),
 
-            # skill callback to stop everything
+            # skill callback to stop everything (the TTS-silencing speech.stop
+            # that may follow is ignored — it only fires mid-playback)
             Message("ovos.skills.converse.force_timeout", {"skill_id": self.skill_id},
                     {"skill_id": self.skill_id}),
 
-            # the intent running in the daemon thread exits cleanly
+            # the stop handler completes and the dispatcher closes its lifecycle
             Message("mycroft.skill.handler.complete",
-                    {"name": "CountSkill.handle_how_are_you_intent"},
-                    {"skill_id": self.skill_id}),
-            Message("ovos.utterance.handled",
-                    {"name": "CountSkill.handle_how_are_you_intent"},
-                    {"skill_id": self.skill_id})
+                    {"name": "StopService.handle_skill_stop"},
+                    {"skill_id": "stop.openvoiceos"}),
+            Message("ovos.intent.handler.complete", {"intent_name": "skill"},
+                    {"skill_id": "stop.openvoiceos"}),
+            Message("ovos.utterance.handled", {},
+                    {"skill_id": "stop.openvoiceos"})
         ]
         test = End2EndTest(
             minicroft=self.minicroft,
@@ -255,11 +300,18 @@ class TestCountSkills(TestCase):
             message,
             Message("stop.openvoiceos.activate", {}),  # stop pipeline counts as active_skill
 
+            # INTENT §8.1: dispatcher lifecycle brackets the global stop handler
+            Message("ovos.intent.matched", {"intent_name": "stop:global"}),
+            Message("ovos.intent.handler.start", {"intent_name": "global"}),
+
             Message("stop:global", {}),  # global stop, no active skill
+            Message("mycroft.skill.handler.start", {"name": "StopService.handle_global_stop"}),
             Message("mycroft.stop", {}),
 
             Message(f"{self.skill_id}.stop.response",
                     {"skill_id": self.skill_id, "result": True}),
+            Message("mycroft.skill.handler.complete", {"name": "StopService.handle_global_stop"}),
+            Message("ovos.intent.handler.complete", {"intent_name": "global"}),
             Message("ovos.utterance.handled", {})
         ]
         test = End2EndTest(
