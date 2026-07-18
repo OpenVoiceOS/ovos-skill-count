@@ -36,7 +36,7 @@ class CountSkill(OVOSSkill):
         except:
             self.speak(str(i))
 
-    @intent_handler("count_to_N.intent")
+    @intent_handler("count_to_n.intent")
     def handle_how_are_you_intent(self, message):
         sess = SessionManager.get(message)
         number = message.data.get("number")
