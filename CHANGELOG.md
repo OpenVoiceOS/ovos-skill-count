@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.6a1) (2026-07-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.5a1...0.0.6a1)
+
+**Merged pull requests:**
+
+- fix: lowercase intent base name per OVOS-INTENT-2 §2 [\#40](https://github.com/OpenVoiceOS/ovos-skill-count/pull/40) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.5a1) (2026-07-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.4a1...0.0.5a1)
