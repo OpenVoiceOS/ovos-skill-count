@@ -6,6 +6,12 @@ matching is checked against the trained Padacioso container the skill registers
 its ``count_to_N.intent`` samples into, which yields the intent name
 deterministically.
 
+The container registers padacioso intents under the lowercased, extension-
+stripped basename of the ``.intent`` file (``count_to_N.intent`` ->
+``count_to_n``), not the literal file name — mirror that here instead of
+hardcoding the on-disk spelling, so this stays correct if padacioso's naming
+convention shifts again.
+
 The skill speaks one utterance per counted number, so full message-routing
 assertions would be slow and non-deterministic; matching the intent at the
 container level keeps this focused on routing and fast.
@@ -15,7 +21,7 @@ from unittest import TestCase
 from ovoscope import get_minicroft
 
 SKILL_ID = "ovos-skill-count.openvoiceos"
-INTENT = f"{SKILL_ID}:count_to_N.intent"
+INTENT = f"{SKILL_ID}:count_to_n"
 LANG = "en-US"
 
 
