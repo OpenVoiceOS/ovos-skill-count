@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.6a3) (2026-08-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a2...0.0.6a3)
+
+**Merged pull requests:**
+
+- chore: add ovoscope end2end intent-routing tests [\#36](https://github.com/OpenVoiceOS/ovos-skill-count/pull/36) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.6a2) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a1...0.0.6a2)
