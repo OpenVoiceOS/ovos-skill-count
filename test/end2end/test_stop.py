@@ -97,7 +97,7 @@ class TestCountSkills(TestCase):
         session = make_session(session_id="count-3", pipeline=self.PIPELINE)
         message = make_utterance_message("count to 3", session=session)
         types = _capture(self.minicroft, message)
-        self.assertIn(f"{SKILL_ID}:count_to_n.intent", types,
+        self.assertIn(f"{SKILL_ID}:count_to_n", types,
                       f"'count to 3' did not route to the count intent ({types})")
         self.assertTrue(SPOKE.intersection(types),
                         f"counting produced no spoken output ({types})")
