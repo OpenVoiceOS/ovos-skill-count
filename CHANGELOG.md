@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a1) (2026-08-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a4...0.0.7a1)
+
+**Merged pull requests:**
+
+- fix: modernize stop-topic assertions and shut down skill-loading test instances [\#51](https://github.com/OpenVoiceOS/ovos-skill-count/pull/51) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.6a4](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.6a4) (2026-08-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a3...0.0.6a4)
