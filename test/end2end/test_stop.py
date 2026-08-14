@@ -28,7 +28,7 @@ SPOKE = {"speak", "ovos.utterance.speak"}
 # "nothing matched", either spelling (legacy / renamed)
 NO_MATCH = {"complete_intent_failure", "ovos.intent.unmatched"}
 # "a stop actually happened" — the broadcast every stoppable component obeys
-STOPPED = "mycroft.stop"
+STOPPED = {"mycroft.stop", "ovos.stop"}
 
 
 def _capture(minicroft, message, timeout=15):
@@ -53,8 +53,8 @@ class TestStopNoSkills(TestCase):
                                pipeline=["ovos-stop-pipeline-plugin-high"])
         message = make_utterance_message("stop", session=session)
         types = _capture(self.minicroft, message)
-        self.assertIn(STOPPED, types,
-                      f"exact 'stop' did not trigger a global stop ({types})")
+        self.assertTrue(STOPPED.intersection(types),
+                        f"exact 'stop' did not trigger a global stop ({types})")
 
     def test_fuzzy_stop_high_does_not_match(self):
         # at high confidence only an exact "stop" matches; a fuzzy phrase must
@@ -63,7 +63,7 @@ class TestStopNoSkills(TestCase):
                                pipeline=["ovos-stop-pipeline-plugin-high"])
         message = make_utterance_message("could you stop that", session=session)
         types = _capture(self.minicroft, message)
-        self.assertNotIn(STOPPED, types,
+        self.assertFalse(STOPPED.intersection(types),
                          f"fuzzy phrase should not stop at high confidence ({types})")
         self.assertTrue(NO_MATCH.intersection(types),
                         f"expected an unmatched signal ({types})")
@@ -74,8 +74,8 @@ class TestStopNoSkills(TestCase):
                                pipeline=["ovos-stop-pipeline-plugin-medium"])
         message = make_utterance_message("could you stop that", session=session)
         types = _capture(self.minicroft, message)
-        self.assertIn(STOPPED, types,
-                      f"fuzzy 'stop' did not match at medium confidence ({types})")
+        self.assertTrue(STOPPED.intersection(types),
+                        f"fuzzy 'stop' did not match at medium confidence ({types})")
 
 
 class TestCountSkills(TestCase):
@@ -145,7 +145,7 @@ class TestCountSkills(TestCase):
         stop = make_utterance_message("stop", session=session)
         types = _capture(self.minicroft, stop)
 
-        self.assertIn(STOPPED, types,
-                      f"global stop was not broadcast ({types})")
+        self.assertTrue(STOPPED.intersection(types),
+                        f"global stop was not broadcast ({types})")
         self.assertFalse(self.skill.active_sessions.get(session.session_id),
                          "counting kept running after global stop")
