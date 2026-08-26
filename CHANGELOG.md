@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a2) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a2)
+
+**Merged pull requests:**
+
+- translate\(it-IT\): update infinity.voc [\#30](https://github.com/OpenVoiceOS/ovos-skill-count/pull/30) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(it-IT\): update count\_to\_N.error.dialog [\#29](https://github.com/OpenVoiceOS/ovos-skill-count/pull/29) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(it-IT\): update count\_to\_N.intent [\#28](https://github.com/OpenVoiceOS/ovos-skill-count/pull/28) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(it-IT\): update cardinal.voc [\#27](https://github.com/OpenVoiceOS/ovos-skill-count/pull/27) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a1) (2026-08-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a4...0.0.7a1)
