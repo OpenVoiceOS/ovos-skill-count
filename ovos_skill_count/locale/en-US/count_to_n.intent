@@ -48,156 +48,31 @@ count infinitely with ordinal numbers in long scale
 count infinitely with ordinal numbers in short scale
 count infinitely with ordinal numbers using long scale
 count infinitely with ordinal numbers using short scale
-count to #
-count to #  in long scale
-count to #  in short scale
-count to #  using long scale
-count to #  using short scale
-count to # using cardinal numbers
-count to # using cardinal numbers in long scale
-count to # using cardinal numbers in short scale
-count to # using cardinal numbers using long scale
-count to # using cardinal numbers using short scale
-count to # using ordinal numbers
-count to # using ordinal numbers in long scale
-count to # using ordinal numbers in short scale
-count to # using ordinal numbers using long scale
-count to # using ordinal numbers using short scale
-count to # with cardinal numbers
-count to # with cardinal numbers in long scale
-count to # with cardinal numbers in short scale
-count to # with cardinal numbers using long scale
-count to # with cardinal numbers using short scale
-count to # with ordinal numbers
-count to # with ordinal numbers in long scale
-count to # with ordinal numbers in short scale
-count to # with ordinal numbers using long scale
-count to # with ordinal numbers using short scale
-count to ##
-count to ##  in long scale
-count to ##  in short scale
-count to ##  using long scale
-count to ##  using short scale
-count to ## using cardinal numbers
-count to ## using cardinal numbers in long scale
-count to ## using cardinal numbers in short scale
-count to ## using cardinal numbers using long scale
-count to ## using cardinal numbers using short scale
-count to ## using ordinal numbers
-count to ## using ordinal numbers in long scale
-count to ## using ordinal numbers in short scale
-count to ## using ordinal numbers using long scale
-count to ## using ordinal numbers using short scale
-count to ## with cardinal numbers
-count to ## with cardinal numbers in long scale
-count to ## with cardinal numbers in short scale
-count to ## with cardinal numbers using long scale
-count to ## with cardinal numbers using short scale
-count to ## with ordinal numbers
-count to ## with ordinal numbers in long scale
-count to ## with ordinal numbers in short scale
-count to ## with ordinal numbers using long scale
-count to ## with ordinal numbers using short scale
-count to ###
-count to ###  in long scale
-count to ###  in short scale
-count to ###  using long scale
-count to ###  using short scale
-count to ### using cardinal numbers
-count to ### using cardinal numbers in long scale
-count to ### using cardinal numbers in short scale
-count to ### using cardinal numbers using long scale
-count to ### using cardinal numbers using short scale
-count to ### using ordinal numbers
-count to ### using ordinal numbers in long scale
-count to ### using ordinal numbers in short scale
-count to ### using ordinal numbers using long scale
-count to ### using ordinal numbers using short scale
-count to ### with cardinal numbers
-count to ### with cardinal numbers in long scale
-count to ### with cardinal numbers in short scale
-count to ### with cardinal numbers using long scale
-count to ### with cardinal numbers using short scale
-count to ### with ordinal numbers
-count to ### with ordinal numbers in long scale
-count to ### with ordinal numbers in short scale
-count to ### with ordinal numbers using long scale
-count to ### with ordinal numbers using short scale
-count to ####
-count to ####  in long scale
-count to ####  in short scale
-count to ####  using long scale
-count to ####  using short scale
-count to #### using cardinal numbers
-count to #### using cardinal numbers in long scale
-count to #### using cardinal numbers in short scale
-count to #### using cardinal numbers using long scale
-count to #### using cardinal numbers using short scale
-count to #### using ordinal numbers
-count to #### using ordinal numbers in long scale
-count to #### using ordinal numbers in short scale
-count to #### using ordinal numbers using long scale
-count to #### using ordinal numbers using short scale
-count to #### with cardinal numbers
-count to #### with cardinal numbers in long scale
-count to #### with cardinal numbers in short scale
-count to #### with cardinal numbers using long scale
-count to #### with cardinal numbers using short scale
-count to #### with ordinal numbers
-count to #### with ordinal numbers in long scale
-count to #### with ordinal numbers in short scale
-count to #### with ordinal numbers using long scale
-count to #### with ordinal numbers using short scale
-count to #####
-count to #####  in long scale
-count to #####  in short scale
-count to #####  using long scale
-count to #####  using short scale
-count to ##### using cardinal numbers
-count to ##### using cardinal numbers in long scale
-count to ##### using cardinal numbers in short scale
-count to ##### using cardinal numbers using long scale
-count to ##### using cardinal numbers using short scale
-count to ##### using ordinal numbers
-count to ##### using ordinal numbers in long scale
-count to ##### using ordinal numbers in short scale
-count to ##### using ordinal numbers using long scale
-count to ##### using ordinal numbers using short scale
-count to ##### with cardinal numbers
-count to ##### with cardinal numbers in long scale
-count to ##### with cardinal numbers in short scale
-count to ##### with cardinal numbers using long scale
-count to ##### with cardinal numbers using short scale
-count to ##### with ordinal numbers
-count to ##### with ordinal numbers in long scale
-count to ##### with ordinal numbers in short scale
-count to ##### with ordinal numbers using long scale
-count to ##### with ordinal numbers using short scale
-count to ######
-count to ######  in long scale
-count to ######  in short scale
-count to ######  using long scale
-count to ######  using short scale
-count to ###### using cardinal numbers
-count to ###### using cardinal numbers in long scale
-count to ###### using cardinal numbers in short scale
-count to ###### using cardinal numbers using long scale
-count to ###### using cardinal numbers using short scale
-count to ###### using ordinal numbers
-count to ###### using ordinal numbers in long scale
-count to ###### using ordinal numbers in short scale
-count to ###### using ordinal numbers using long scale
-count to ###### using ordinal numbers using short scale
-count to ###### with cardinal numbers
-count to ###### with cardinal numbers in long scale
-count to ###### with cardinal numbers in short scale
-count to ###### with cardinal numbers using long scale
-count to ###### with cardinal numbers using short scale
-count to ###### with ordinal numbers
-count to ###### with ordinal numbers in long scale
-count to ###### with ordinal numbers in short scale
-count to ###### with ordinal numbers using long scale
-count to ###### with ordinal numbers using short scale
+count to {number}
+count to {number}  in long scale
+count to {number}  in short scale
+count to {number}  using long scale
+count to {number}  using short scale
+count to {number} using cardinal numbers
+count to {number} using cardinal numbers in long scale
+count to {number} using cardinal numbers in short scale
+count to {number} using cardinal numbers using long scale
+count to {number} using cardinal numbers using short scale
+count to {number} using ordinal numbers
+count to {number} using ordinal numbers in long scale
+count to {number} using ordinal numbers in short scale
+count to {number} using ordinal numbers using long scale
+count to {number} using ordinal numbers using short scale
+count to {number} with cardinal numbers
+count to {number} with cardinal numbers in long scale
+count to {number} with cardinal numbers in short scale
+count to {number} with cardinal numbers using long scale
+count to {number} with cardinal numbers using short scale
+count to {number} with ordinal numbers
+count to {number} with ordinal numbers in long scale
+count to {number} with ordinal numbers in short scale
+count to {number} with ordinal numbers using long scale
+count to {number} with ordinal numbers using short scale
 count to 0
 count to 0  in long scale
 count to 0  in short scale
@@ -2798,156 +2673,31 @@ start counting infinitely with ordinal numbers in long scale
 start counting infinitely with ordinal numbers in short scale
 start counting infinitely with ordinal numbers using long scale
 start counting infinitely with ordinal numbers using short scale
-start counting to #
-start counting to #  in long scale
-start counting to #  in short scale
-start counting to #  using long scale
-start counting to #  using short scale
-start counting to # using cardinal numbers
-start counting to # using cardinal numbers in long scale
-start counting to # using cardinal numbers in short scale
-start counting to # using cardinal numbers using long scale
-start counting to # using cardinal numbers using short scale
-start counting to # using ordinal numbers
-start counting to # using ordinal numbers in long scale
-start counting to # using ordinal numbers in short scale
-start counting to # using ordinal numbers using long scale
-start counting to # using ordinal numbers using short scale
-start counting to # with cardinal numbers
-start counting to # with cardinal numbers in long scale
-start counting to # with cardinal numbers in short scale
-start counting to # with cardinal numbers using long scale
-start counting to # with cardinal numbers using short scale
-start counting to # with ordinal numbers
-start counting to # with ordinal numbers in long scale
-start counting to # with ordinal numbers in short scale
-start counting to # with ordinal numbers using long scale
-start counting to # with ordinal numbers using short scale
-start counting to ##
-start counting to ##  in long scale
-start counting to ##  in short scale
-start counting to ##  using long scale
-start counting to ##  using short scale
-start counting to ## using cardinal numbers
-start counting to ## using cardinal numbers in long scale
-start counting to ## using cardinal numbers in short scale
-start counting to ## using cardinal numbers using long scale
-start counting to ## using cardinal numbers using short scale
-start counting to ## using ordinal numbers
-start counting to ## using ordinal numbers in long scale
-start counting to ## using ordinal numbers in short scale
-start counting to ## using ordinal numbers using long scale
-start counting to ## using ordinal numbers using short scale
-start counting to ## with cardinal numbers
-start counting to ## with cardinal numbers in long scale
-start counting to ## with cardinal numbers in short scale
-start counting to ## with cardinal numbers using long scale
-start counting to ## with cardinal numbers using short scale
-start counting to ## with ordinal numbers
-start counting to ## with ordinal numbers in long scale
-start counting to ## with ordinal numbers in short scale
-start counting to ## with ordinal numbers using long scale
-start counting to ## with ordinal numbers using short scale
-start counting to ###
-start counting to ###  in long scale
-start counting to ###  in short scale
-start counting to ###  using long scale
-start counting to ###  using short scale
-start counting to ### using cardinal numbers
-start counting to ### using cardinal numbers in long scale
-start counting to ### using cardinal numbers in short scale
-start counting to ### using cardinal numbers using long scale
-start counting to ### using cardinal numbers using short scale
-start counting to ### using ordinal numbers
-start counting to ### using ordinal numbers in long scale
-start counting to ### using ordinal numbers in short scale
-start counting to ### using ordinal numbers using long scale
-start counting to ### using ordinal numbers using short scale
-start counting to ### with cardinal numbers
-start counting to ### with cardinal numbers in long scale
-start counting to ### with cardinal numbers in short scale
-start counting to ### with cardinal numbers using long scale
-start counting to ### with cardinal numbers using short scale
-start counting to ### with ordinal numbers
-start counting to ### with ordinal numbers in long scale
-start counting to ### with ordinal numbers in short scale
-start counting to ### with ordinal numbers using long scale
-start counting to ### with ordinal numbers using short scale
-start counting to ####
-start counting to ####  in long scale
-start counting to ####  in short scale
-start counting to ####  using long scale
-start counting to ####  using short scale
-start counting to #### using cardinal numbers
-start counting to #### using cardinal numbers in long scale
-start counting to #### using cardinal numbers in short scale
-start counting to #### using cardinal numbers using long scale
-start counting to #### using cardinal numbers using short scale
-start counting to #### using ordinal numbers
-start counting to #### using ordinal numbers in long scale
-start counting to #### using ordinal numbers in short scale
-start counting to #### using ordinal numbers using long scale
-start counting to #### using ordinal numbers using short scale
-start counting to #### with cardinal numbers
-start counting to #### with cardinal numbers in long scale
-start counting to #### with cardinal numbers in short scale
-start counting to #### with cardinal numbers using long scale
-start counting to #### with cardinal numbers using short scale
-start counting to #### with ordinal numbers
-start counting to #### with ordinal numbers in long scale
-start counting to #### with ordinal numbers in short scale
-start counting to #### with ordinal numbers using long scale
-start counting to #### with ordinal numbers using short scale
-start counting to #####
-start counting to #####  in long scale
-start counting to #####  in short scale
-start counting to #####  using long scale
-start counting to #####  using short scale
-start counting to ##### using cardinal numbers
-start counting to ##### using cardinal numbers in long scale
-start counting to ##### using cardinal numbers in short scale
-start counting to ##### using cardinal numbers using long scale
-start counting to ##### using cardinal numbers using short scale
-start counting to ##### using ordinal numbers
-start counting to ##### using ordinal numbers in long scale
-start counting to ##### using ordinal numbers in short scale
-start counting to ##### using ordinal numbers using long scale
-start counting to ##### using ordinal numbers using short scale
-start counting to ##### with cardinal numbers
-start counting to ##### with cardinal numbers in long scale
-start counting to ##### with cardinal numbers in short scale
-start counting to ##### with cardinal numbers using long scale
-start counting to ##### with cardinal numbers using short scale
-start counting to ##### with ordinal numbers
-start counting to ##### with ordinal numbers in long scale
-start counting to ##### with ordinal numbers in short scale
-start counting to ##### with ordinal numbers using long scale
-start counting to ##### with ordinal numbers using short scale
-start counting to ######
-start counting to ######  in long scale
-start counting to ######  in short scale
-start counting to ######  using long scale
-start counting to ######  using short scale
-start counting to ###### using cardinal numbers
-start counting to ###### using cardinal numbers in long scale
-start counting to ###### using cardinal numbers in short scale
-start counting to ###### using cardinal numbers using long scale
-start counting to ###### using cardinal numbers using short scale
-start counting to ###### using ordinal numbers
-start counting to ###### using ordinal numbers in long scale
-start counting to ###### using ordinal numbers in short scale
-start counting to ###### using ordinal numbers using long scale
-start counting to ###### using ordinal numbers using short scale
-start counting to ###### with cardinal numbers
-start counting to ###### with cardinal numbers in long scale
-start counting to ###### with cardinal numbers in short scale
-start counting to ###### with cardinal numbers using long scale
-start counting to ###### with cardinal numbers using short scale
-start counting to ###### with ordinal numbers
-start counting to ###### with ordinal numbers in long scale
-start counting to ###### with ordinal numbers in short scale
-start counting to ###### with ordinal numbers using long scale
-start counting to ###### with ordinal numbers using short scale
+start counting to {number}
+start counting to {number}  in long scale
+start counting to {number}  in short scale
+start counting to {number}  using long scale
+start counting to {number}  using short scale
+start counting to {number} using cardinal numbers
+start counting to {number} using cardinal numbers in long scale
+start counting to {number} using cardinal numbers in short scale
+start counting to {number} using cardinal numbers using long scale
+start counting to {number} using cardinal numbers using short scale
+start counting to {number} using ordinal numbers
+start counting to {number} using ordinal numbers in long scale
+start counting to {number} using ordinal numbers in short scale
+start counting to {number} using ordinal numbers using long scale
+start counting to {number} using ordinal numbers using short scale
+start counting to {number} with cardinal numbers
+start counting to {number} with cardinal numbers in long scale
+start counting to {number} with cardinal numbers in short scale
+start counting to {number} with cardinal numbers using long scale
+start counting to {number} with cardinal numbers using short scale
+start counting to {number} with ordinal numbers
+start counting to {number} with ordinal numbers in long scale
+start counting to {number} with ordinal numbers in short scale
+start counting to {number} with ordinal numbers using long scale
+start counting to {number} with ordinal numbers using short scale
 start counting to 0
 start counting to 0  in long scale
 start counting to 0  in short scale

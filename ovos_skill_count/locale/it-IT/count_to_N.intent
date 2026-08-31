@@ -3,15 +3,13 @@ conta (per sempre|all'infinito|infinitamente)
 conta (per sempre|all'infinito|infinitamente) (in|usando la) scala (corta|lunga)
 conta (per sempre|all'infinito|infinitamente) (con|usando i) numeri (cardinali|ordinali)
 conta (per sempre|all'infinito|infinitamente) (con|usando i) numeri (cardinali|ordinali) (in|usando) scala (corta|lunga)
-
 # Conteggio fino a numero
-conta fino a (#|##|###|####|#####|######)
-conta fino a (#|##|###|####|#####|######) (in|usando la) scala (corta|lunga)
-conta fino a (#|##|###|####|#####|######) (con|usando i) numeri (cardinali|ordinali)
-conta fino a (#|##|###|####|#####|######) (con|usando i) numeri (cardinali|ordinali) (in|usando) scala (corta|lunga)
-
+conta fino a {number}
+conta fino a {number} (in|usando la) scala (corta|lunga)
+conta fino a {number} (con|usando i) numeri (cardinali|ordinali)
+conta fino a {number} (con|usando i) numeri (cardinali|ordinali) (in|usando) scala (corta|lunga)
 # Avvio conteggio
 inizia a contare (per sempre|all'infinito|infinitamente)
 inizia a contare (per sempre|all'infinito|infinitamente) (in|usando la) scala (corta|lunga)
 inizia a contare (per sempre|all'infinito|infinitamente) (con|usando i) numeri (cardinali|ordinali)
-inizia a contare fino a (#|##|###|####|#####|######)
+inizia a contare fino a {number}
