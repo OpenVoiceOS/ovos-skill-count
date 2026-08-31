@@ -52,7 +52,12 @@ class CountSkill(OVOSSkill):
             except:
                 number = None
         else:
-            number = int(number)
+            try:
+                number = int(number)
+            except ValueError:
+                number = extract_number(number, lang=sess.lang,
+                                         short_scale=short_scale,
+                                         ordinals=True)
 
         if number is None:
             # TODO - prompt user instead with get_response

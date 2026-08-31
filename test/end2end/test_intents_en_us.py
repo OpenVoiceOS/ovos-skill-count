@@ -43,12 +43,14 @@ class TestCountIntents(TestCase):
         self.assertIn(SKILL_ID, self.minicroft.plugin_skills)
         self.assertIn(INTENT, self.container.intent_samples)
 
-        # a finite "count to #" target, the scale/number-kind modifiers, and the
+        # a finite "count to N" target, the scale/number-kind modifiers, and the
         # unbounded "count forever"/"count infinitely" phrasings all route to the
-        # single count_to_N.intent; the numeric target is parsed in-handler via
-        # ovos-number-parser rather than captured as a slot.
+        # single count_to_N.intent; the target is captured by the portable
+        # "{number}" slot and parsed in-handler via ovos-number-parser, so both
+        # digit and word-form numbers work.
         utterances = [
             "count to 3",
+            "count to five",
             "count to 3 in long scale",
             "count to 3 using short scale",
             "count to 3 using ordinal numbers",
@@ -59,3 +61,22 @@ class TestCountIntents(TestCase):
         for utterance in utterances:
             match = self.container.calc_intent(utterance)
             self.assertEqual(match["name"], INTENT, utterance)
+
+    def test_number_slot_parses_words_and_digits(self):
+        """The "{number}" slot must resolve to the correct target for both
+        digit and word-form phrasings, via extract_number in the handler."""
+        from ovos_number_parser import extract_number
+
+        for utterance, expected in [("count to 3", 3), ("count to five", 5)]:
+            match = self.container.calc_intent(utterance)
+            self.assertEqual(match["name"], INTENT, utterance)
+            number = match["entities"].get("number")
+            if number is not None:
+                number = number[0] if isinstance(number, list) else number
+                try:
+                    number = int(number)
+                except ValueError:
+                    number = extract_number(number, lang=LANG)
+            else:
+                number = extract_number(utterance, lang=LANG)
+            self.assertEqual(number, expected, utterance)
