@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.9a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.9a1) (2026-09-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.8a1...0.0.9a1)
+
+**Merged pull requests:**
+
+- fix: correct case of it-IT count\_to\_n.intent to match handler [\#57](https://github.com/OpenVoiceOS/ovos-skill-count/pull/57) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.8a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.8a1) (2026-08-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.8a1)
