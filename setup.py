@@ -13,6 +13,14 @@ SKILL_AUTHOR, SKILL_NAME = URL.split(".com/")[-1].split("/")  # derived from git
 PLUGIN_ENTRY_POINT = f'{SKILL_NAME.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}'
 
 
+def get_requirements(requirements_filename: str):
+    requirements_file = path.join(path.abspath(path.dirname(__file__)), requirements_filename)
+    with open(requirements_file, 'r', encoding='utf-8') as r:
+        requirements = r.readlines()
+    requirements = [r.strip() for r in requirements if r.strip() and not r.strip().startswith("#")]
+    return requirements
+
+
 def find_resource_files():
     resource_base_dirs = ("locale",)
     base_dir = path.join(os.path.dirname(__file__), SKILL_PKG)
@@ -69,6 +77,8 @@ setup(
     packages=[SKILL_PKG],
     package_data={SKILL_PKG: find_resource_files()},
     include_package_data=True,
+    install_requires=get_requirements("requirements.txt"),
+    extras_require={"test": get_requirements("test/requirements.txt")},
     keywords='ovos skill plugin',
-    entry_points={'ovos.plugin.skill': PLUGIN_ENTRY_POINT}
+    entry_points={'opm.skill': PLUGIN_ENTRY_POINT}
 )
