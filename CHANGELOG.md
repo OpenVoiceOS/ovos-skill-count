@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.9a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.9a2) (2026-09-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.9a1...0.0.9a2)
+
+**Merged pull requests:**
+
+- test: add bounded count\_to\_n golden-utterance coverage [\#59](https://github.com/OpenVoiceOS/ovos-skill-count/pull/59) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.9a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.9a1) (2026-09-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.8a1...0.0.9a1)
