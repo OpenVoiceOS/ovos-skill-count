@@ -1,3 +1,4 @@
+import logging
 import unittest
 from os.path import dirname
 
@@ -7,6 +8,8 @@ from ovos_workshop.skill_launcher import PluginSkillLoader, SkillLoader
 
 import ovos_skill_count
 from ovos_skill_count import CountSkill
+
+LOG = logging.getLogger(__name__)
 
 
 class TestSkillLoading(unittest.TestCase):
@@ -33,7 +36,7 @@ class TestSkillLoading(unittest.TestCase):
                 else:
                     instance.default_shutdown()
             except Exception:
-                pass
+                LOG.exception("Error shutting down skill instance")
 
     def test_from_class(self):
         bus = FakeBus()

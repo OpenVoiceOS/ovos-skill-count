@@ -1,8 +1,7 @@
 import time
-from typing import Dict
 
-from ovos_bus_client import SessionManager, Session, Message
-from ovos_number_parser import pronounce_number, extract_number
+from ovos_bus_client import Message, Session, SessionManager
+from ovos_number_parser import extract_number, pronounce_number
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.decorators import intent_handler
@@ -28,12 +27,12 @@ class CountSkill(OVOSSkill):
         )
 
     def initialize(self):
-        self.active_sessions: Dict[str, bool] = {}
+        self.active_sessions: dict[str, bool] = {}
 
     def speak_n(self, i: int, lang: str, short_scale: bool = False, ordinals: bool =False):
         try:
             self.speak(pronounce_number(i, lang=lang, short_scale=short_scale, ordinals=ordinals))
-        except:
+        except (ValueError, TypeError):
             self.speak(str(i))
 
     @intent_handler("count_to_n.intent")
@@ -49,7 +48,7 @@ class CountSkill(OVOSSkill):
                 number = extract_number(utterance, lang=sess.lang,
                                         short_scale=short_scale,
                                         ordinals=True)
-            except:
+            except (ValueError, TypeError):
                 number = None
         else:
             try:

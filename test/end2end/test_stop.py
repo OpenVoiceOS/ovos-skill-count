@@ -17,6 +17,7 @@ truth of whether counting is still running.
 """
 import threading
 import time
+from typing import ClassVar
 from unittest import TestCase
 
 from ovoscope import CaptureSession, get_minicroft, make_session, make_utterance_message
@@ -80,8 +81,8 @@ class TestStopNoSkills(TestCase):
 
 class TestCountSkills(TestCase):
 
-    PIPELINE = ["ovos-stop-pipeline-plugin-high",
-                "ovos-padatious-pipeline-plugin-high"]
+    PIPELINE: ClassVar[list[str]] = ["ovos-stop-pipeline-plugin-high",
+                                      "ovos-padatious-pipeline-plugin-high"]
 
     def setUp(self):
         self.minicroft = get_minicroft([SKILL_ID])
