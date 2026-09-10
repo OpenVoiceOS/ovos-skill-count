@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.2.0a3) (2026-09-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.0a2...0.2.0a3)
+
+**Merged pull requests:**
+
+- test: effect-checking e2e coverage for count sequence \(it-IT\) [\#75](https://github.com/OpenVoiceOS/ovos-skill-count/pull/75) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.0a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.2.0a2) (2026-09-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.0a1...0.2.0a2)
