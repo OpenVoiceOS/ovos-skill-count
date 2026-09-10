@@ -86,9 +86,25 @@ class TestCountSkills(TestCase):
     def setUp(self):
         self.minicroft = get_minicroft([SKILL_ID])
         self.skill = self.minicroft.plugin_skills[SKILL_ID].instance
+        self._count_threads = []
 
     def tearDown(self):
-        # make sure no counting loop survives into the next test
+        # `_start_infinite_count` runs the handler's `while True` loop on a
+        # daemon thread that only re-checks `active_sessions` once per
+        # second (after its `time.sleep(1)`). Setting the flag False (via
+        # `stop_session`) does not mean that thread has *observed* it yet,
+        # so join it first -- clearing the dict out from under a thread
+        # still mid-iteration turns its next `active_sessions[sess.session_id]`
+        # read into a KeyError, logged as "Error handling event ... :
+        # '<session_id>'" and leaking into the next test's minicroft/bus.
+        for thread in self._count_threads:
+            thread.join(timeout=5)
+            self.assertFalse(
+                thread.is_alive(),
+                "counting thread did not stop within 5s of its session "
+                "being marked inactive -- active_sessions was not cleared "
+                "to avoid a KeyError race in the still-running handler",
+            )
         self.skill.active_sessions.clear()
         if self.minicroft:
             self.minicroft.stop()
@@ -111,8 +127,10 @@ class TestCountSkills(TestCase):
         daemon thread or it would block the test forever.
         """
         message = make_utterance_message("count to infinity", session=session)
-        threading.Thread(target=self.minicroft.bus.emit, args=(message,),
-                         daemon=True).start()
+        thread = threading.Thread(target=self.minicroft.bus.emit, args=(message,),
+                                  daemon=True)
+        thread.start()
+        self._count_threads.append(thread)
         deadline = time.time() + 10
         while time.time() < deadline:
             if self.skill.active_sessions.get(session.session_id):
