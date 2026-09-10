@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.2.2a1) (2026-09-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.1a1...0.2.2a1)
+
+**Merged pull requests:**
+
+- fix: join the infinite-count daemon thread before clearing active\_sessions [\#76](https://github.com/OpenVoiceOS/ovos-skill-count/pull/76) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.2.1a1) (2026-09-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.0a3...0.2.1a1)
