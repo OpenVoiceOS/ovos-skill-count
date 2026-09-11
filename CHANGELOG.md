@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.0a1) (2026-09-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.3a1...0.3.0a1)
+
+**Merged pull requests:**
+
+- feat: Danish and Swedish templates and vocabulary by a native speaker [\#67](https://github.com/OpenVoiceOS/ovos-skill-count/pull/67) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.2.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.2.3a1) (2026-09-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.2a1...0.2.3a1)
