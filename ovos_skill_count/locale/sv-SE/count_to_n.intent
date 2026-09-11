@@ -1,3 +1,12 @@
+räkna till {number}
+räkna för evigt
+räkna oändligt
+räkna till {number} i lång skala
+räkna till {number} i kort skala
+räkna till {number} med kardinaltal
+räkna till {number} med ordningstal
+räkna för evigt med kardinaltal
+räkna för evigt med ordningstal
 räkna för alltid
 räkna för alltid  i lång skala
 räkna för alltid  i kort skala
@@ -23,7 +32,6 @@ räkna för alltid genom att använda ordningstal i lång skala
 räkna för alltid genom att använda ordningstal i kort skala
 räkna för alltid genom att använda ordningstal med hjälp av lång skala
 räkna för alltid genom att använda ordningstal med hjälp av kort skala
-räkna oändligt
 räkna oändligt  i lång skala
 räkna oändligt  i kort skala
 räkna oändligt  med hjälp av lång skala
@@ -2648,12 +2656,10 @@ räkna till oändligheten genom att använda ordningstal i lång skala
 räkna till oändligheten genom att använda ordningstal i kort skala
 räkna till oändligheten genom att använda ordningstal med hjälp av lång skala
 räkna till oändligheten genom att använda ordningstal med hjälp av kort skala
-räkna till {number}
 räkna till {number}  i lång skala
 räkna till {number}  i kort skala
 räkna till {number}  med hjälp av lång skala
 räkna till {number}  med hjälp av kort skala
-räkna till {number} med kardinaltal
 räkna till {number} med kardinaltal i lång skala
 räkna till {number} med kardinaltal i kort skala
 räkna till {number} med kardinaltal med hjälp av lång skala
@@ -2663,7 +2669,6 @@ räkna till {number} genom att använda kardinaltal i lång skala
 räkna till {number} genom att använda kardinaltal i kort skala
 räkna till {number} genom att använda kardinaltal med hjälp av lång skala
 räkna till {number} genom att använda kardinaltal med hjälp av kort skala
-räkna till {number} med ordningstal
 räkna till {number} med ordningstal i lång skala
 räkna till {number} med ordningstal i kort skala
 räkna till {number} med ordningstal med hjälp av lång skala

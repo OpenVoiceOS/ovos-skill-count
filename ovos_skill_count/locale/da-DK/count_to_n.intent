@@ -1,9 +1,16 @@
+tæl til {number}
 tæl for evigt
+tæl uendeligt
+tæl til {number} i lang skala
+tæl til {number} i kort skala
+tæl til {number} med kardinaltal
+tæl til {number} med ordenstal
+tæl for evigt med kardinaltal
+tæl for evigt med ordenstal
 tæl for evigt  i lang skala
 tæl for evigt  i kort skala
 tæl for evigt  ved brug af lang skala
 tæl for evigt  ved brug af kort skala
-tæl for evigt med kardinaltal
 tæl for evigt med kardinaltal i lang skala
 tæl for evigt med kardinaltal i kort skala
 tæl for evigt med kardinaltal ved brug af lang skala
@@ -13,7 +20,6 @@ tæl for evigt ved hjælp af kardinaltal i lang skala
 tæl for evigt ved hjælp af kardinaltal i kort skala
 tæl for evigt ved hjælp af kardinaltal ved brug af lang skala
 tæl for evigt ved hjælp af kardinaltal ved brug af kort skala
-tæl for evigt med ordenstal
 tæl for evigt med ordenstal i lang skala
 tæl for evigt med ordenstal i kort skala
 tæl for evigt med ordenstal ved brug af lang skala
@@ -23,7 +29,6 @@ tæl for evigt ved hjælp af ordenstal i lang skala
 tæl for evigt ved hjælp af ordenstal i kort skala
 tæl for evigt ved hjælp af ordenstal ved brug af lang skala
 tæl for evigt ved hjælp af ordenstal ved brug af kort skala
-tæl uendeligt
 tæl uendeligt  i lang skala
 tæl uendeligt  i kort skala
 tæl uendeligt  ved brug af lang skala
@@ -2648,12 +2653,10 @@ tæl til uendeligheden ved hjælp af ordenstal i lang skala
 tæl til uendeligheden ved hjælp af ordenstal i kort skala
 tæl til uendeligheden ved hjælp af ordenstal ved brug af lang skala
 tæl til uendeligheden ved hjælp af ordenstal ved brug af kort skala
-tæl til {number}
 tæl til {number}  i lang skala
 tæl til {number}  i kort skala
 tæl til {number}  ved brug af lang skala
 tæl til {number}  ved brug af kort skala
-tæl til {number} med kardinaltal
 tæl til {number} med kardinaltal i lang skala
 tæl til {number} med kardinaltal i kort skala
 tæl til {number} med kardinaltal ved brug af lang skala
@@ -2663,7 +2666,6 @@ tæl til {number} ved hjælp af kardinaltal i lang skala
 tæl til {number} ved hjælp af kardinaltal i kort skala
 tæl til {number} ved hjælp af kardinaltal ved brug af lang skala
 tæl til {number} ved hjælp af kardinaltal ved brug af kort skala
-tæl til {number} med ordenstal
 tæl til {number} med ordenstal i lang skala
 tæl til {number} med ordenstal i kort skala
 tæl til {number} med ordenstal ved brug af lang skala
