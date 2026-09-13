@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.0a2) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.0a1...0.3.0a2)
+
+**Merged pull requests:**
+
+- locale: it-IT scale and ordinal vocabularies [\#86](https://github.com/OpenVoiceOS/ovos-skill-count/pull/86) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.0a1) (2026-09-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.2.3a1...0.3.0a1)
