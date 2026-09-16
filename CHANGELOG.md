@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.1a1) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.0a2...0.3.1a1)
+
+**Merged pull requests:**
+
+- fix: capitalize sentence-initial letter in da-DK and sv-SE failed\_extract\_number.dialog [\#82](https://github.com/OpenVoiceOS/ovos-skill-count/pull/82) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.0a2) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.0a1...0.3.0a2)
