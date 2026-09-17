@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.3a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.2a1...0.3.3a1)
+
+**Merged pull requests:**
+
+- fix: raise ovos-workshop floor to 9.8.1a1 for voc\_match lang fix [\#79](https://github.com/OpenVoiceOS/ovos-skill-count/pull/79) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.2a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.1a1...0.3.2a1)
