@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.2a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.1a1...0.3.2a1)
+
+**Merged pull requests:**
+
+- fix: check both None and False from extract\_number in count skill [\#78](https://github.com/OpenVoiceOS/ovos-skill-count/pull/78) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.1a1) (2026-09-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.0a2...0.3.1a1)
