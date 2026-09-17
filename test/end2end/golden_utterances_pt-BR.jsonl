@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conte até dez", "lang": "pt-BR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conte até 20  em escala longa", "lang": "pt-BR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conte para sempre", "lang": "pt-BR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}

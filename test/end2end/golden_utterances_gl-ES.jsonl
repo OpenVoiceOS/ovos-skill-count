@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata dez", "lang": "gl-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata 20  en escala longa", "lang": "gl-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta para sempre", "lang": "gl-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
