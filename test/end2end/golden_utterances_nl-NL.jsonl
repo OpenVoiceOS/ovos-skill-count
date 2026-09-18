@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tel tot tien", "lang": "nl-NL", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tel tot 20  in lange schaal", "lang": "nl-NL", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tel voor altijd", "lang": "nl-NL", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}

@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começar a contar até dez", "lang": "pt-PT", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começar a contar até 20  em escala curta", "lang": "pt-PT", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começar a contar para sempre", "lang": "pt-PT", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
