@@ -3,11 +3,11 @@
 A MiniCroft loads the real skill plugin, so the assertions exercise the same
 resource loading and intent registration path used at runtime. Utterance
 matching is checked against the trained Padacioso container the skill registers
-its ``count_to_N.intent`` samples into, which yields the intent name
+its ``count_to_n.intent`` samples into, which yields the intent name
 deterministically.
 
 The container registers padacioso intents under the lowercased, extension-
-stripped basename of the ``.intent`` file (``count_to_N.intent`` ->
+stripped basename of the ``.intent`` file (``count_to_n.intent`` ->
 ``count_to_n``), not the literal file name — mirror that here instead of
 hardcoding the on-disk spelling, so this stays correct if padacioso's naming
 convention shifts again.
@@ -45,7 +45,7 @@ class TestCountIntents(TestCase):
 
         # a finite "count to N" target, the scale/number-kind modifiers, and the
         # unbounded "count forever"/"count infinitely" phrasings all route to the
-        # single count_to_N.intent; the target is captured by the portable
+        # single count_to_n.intent; the target is captured by the portable
         # "{number}" slot and parsed in-handler via ovos-number-parser, so both
         # digit and word-form numbers work.
         utterances = [
