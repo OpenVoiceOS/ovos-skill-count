@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.5a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.5a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.4a1...0.3.5a1)
+
+**Merged pull requests:**
+
+- docs\(test\): the en-US intent test names count\_to\_n.intent, the file that ships [\#93](https://github.com/OpenVoiceOS/ovos-skill-count/pull/93) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.4a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.4a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.3a2...0.3.4a1)
@@ -130,19 +138,19 @@
 
 ## [0.0.8a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.8a1) (2026-08-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a2...0.0.8a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.8a1)
 
 **Merged pull requests:**
 
 - fix: use a {number} slot instead of the padatious-only \# wildcard [\#55](https://github.com/OpenVoiceOS/ovos-skill-count/pull/55) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a2) (2026-08-26)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.7a2)
-
 ## [0.0.7a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a3) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a2...0.0.7a3)
+
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a2) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a2)
 
 **Merged pull requests:**
 
@@ -240,6 +248,41 @@
 **Merged pull requests:**
 
 - chore: Configure Renovate [\#12](https://github.com/OpenVoiceOS/ovos-skill-count/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2) (2025-06-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2a3...0.0.2)
+
+**Merged pull requests:**
+
+- Release 0.0.2a3 [\#6](https://github.com/OpenVoiceOS/ovos-skill-count/pull/6) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.2a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a3) (2025-06-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2a2...0.0.2a3)
+
+## [0.0.2a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a2) (2025-06-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2a1...0.0.2a2)
+
+**Merged pull requests:**
+
+- Release 0.0.2a2 [\#5](https://github.com/OpenVoiceOS/ovos-skill-count/pull/5) ([github-actions[bot]](https://github.com/apps/github-actions))
+- pt-pt/translate [\#4](https://github.com/OpenVoiceOS/ovos-skill-count/pull/4) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- pt-pt/translate [\#3](https://github.com/OpenVoiceOS/ovos-skill-count/pull/3) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a1) (2025-06-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.1...0.0.2a1)
+
+**Merged pull requests:**
+
+- Release 0.0.2a1 [\#2](https://github.com/OpenVoiceOS/ovos-skill-count/pull/2) ([github-actions[bot]](https://github.com/apps/github-actions))
+- fix: better error handling [\#1](https://github.com/OpenVoiceOS/ovos-skill-count/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.1) (2025-06-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/1b351ec7bf1c34f64bea7ea69b16a4c760c693eb...0.0.1)
 
 
 
