@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.3a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.3a2) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.3a1...0.3.3a2)
+
+**Merged pull requests:**
+
+- test: golden utterances for every locale [\#91](https://github.com/OpenVoiceOS/ovos-skill-count/pull/91) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.3a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.2a1...0.3.3a1)
@@ -114,19 +122,19 @@
 
 ## [0.0.8a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.8a1) (2026-08-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.8a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a2...0.0.8a1)
 
 **Merged pull requests:**
 
 - fix: use a {number} slot instead of the padatious-only \# wildcard [\#55](https://github.com/OpenVoiceOS/ovos-skill-count/pull/55) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.0.7a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a3) (2026-08-26)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a2...0.0.7a3)
-
 ## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a2) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.7a2)
+
+## [0.0.7a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a3) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a3)
 
 **Merged pull requests:**
 
