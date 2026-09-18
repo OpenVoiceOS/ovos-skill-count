@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.4a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.4a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.3a2...0.3.4a1)
+
+**Merged pull requests:**
+
+- fix: close it-IT locale parity gap in ovos-skill-count [\#83](https://github.com/OpenVoiceOS/ovos-skill-count/pull/83) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.3a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.3a2) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.3a1...0.3.3a2)
