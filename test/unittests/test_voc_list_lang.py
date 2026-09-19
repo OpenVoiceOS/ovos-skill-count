@@ -14,9 +14,11 @@ class TestVocListLang(unittest.TestCase):
     A skill asking for da-DK vocabulary while its default is en-US must get
     back da-DK strings, not en-US ones.
 
-    The test asserts membership, not the content of the two ``cardinal.voc``
-    files. A translation change to either file is not a defect in
-    ``voc_list``, so it must not make this test red.
+    The test asserts that the two lists are non-empty and disjoint, never
+    that either holds a particular string. A translation change to either
+    ``cardinal.voc`` is not a defect in ``voc_list``, so it must not make
+    this test red; three such changes did, and the message sent the reader
+    to ``voc_list`` when the file had changed.
     """
 
     @classmethod
@@ -39,19 +41,14 @@ class TestVocListLang(unittest.TestCase):
         self.assertTrue(da_cardinal, "da-DK cardinal vocabulary is empty")
         self.assertTrue(en_cardinal, "en-US cardinal vocabulary is empty")
 
-        # Both directions are asserted. A release that ignores ``lang``
-        # returns the en-US list for the da-DK call, and the da-DK pair
-        # alone would pass if the two files ever shared a string.
-        self.assertIn("kardinaltal", da_cardinal,
-                      "voc_list ignored lang='da-DK'")
-        self.assertNotIn("kardinaltal", en_cardinal,
-                         "the en-US list holds a Danish string")
-        self.assertIn("cardinal number", en_cardinal,
-                      "voc_list ignored lang='en-US'")
-        self.assertNotIn("cardinal number", da_cardinal,
-                         "the da-DK list holds an English string")
-
-        self.assertNotEqual(sorted(da_cardinal), sorted(en_cardinal))
+        # A release that ignores ``lang`` returns the en-US list for the
+        # da-DK call; then the two lists share every string. The assertion
+        # is on the two lists as sets, never on a particular translation:
+        # a da-DK file that says "grundtal" instead of "kardinaltal" is not
+        # a defect in ``voc_list`` and must not make this test red.
+        self.assertEqual(set(da_cardinal) & set(en_cardinal), set(),
+                         "voc_list returned the same strings for lang='da-DK' "
+                         "and lang='en-US'; the lang argument was ignored")
 
 
 if __name__ == "__main__":
