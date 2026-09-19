@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.5a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.5a2) (2026-09-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.5a1...0.3.5a2)
+
+**Merged pull requests:**
+
+- test: voc\_list lang check asserts disjoint lists, not two strings [\#97](https://github.com/OpenVoiceOS/ovos-skill-count/pull/97) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.5a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.5a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.4a1...0.3.5a1)
