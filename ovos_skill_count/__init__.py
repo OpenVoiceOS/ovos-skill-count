@@ -36,7 +36,7 @@ class CountSkill(OVOSSkill):
         except:
             self.speak(str(i))
 
-    @intent_handler("count_to_N.intent")
+    @intent_handler("count_to_n.intent")
     def handle_how_are_you_intent(self, message):
         sess = SessionManager.get(message)
         number = message.data.get("number")
@@ -52,9 +52,20 @@ class CountSkill(OVOSSkill):
             except:
                 number = None
         else:
-            number = int(number)
+            try:
+                number = int(number)
+            except ValueError:
+                number = extract_number(number, lang=sess.lang,
+                                         short_scale=short_scale,
+                                         ordinals=True)
 
-        if number is None:
+        infinite = self.voc_match(utterance, "infinity", lang=sess.lang)
+        if not infinite and (number is None or number is False):
+            # ovos_number_parser.extract_number returns False (not None) when
+            # it finds no number, so both sentinels have to be checked here
+            # or the handler proceeds as though it had extracted a number.
+            # "count to infinity"/"count forever" legitimately carry no
+            # number at all, so that path is exempt from this guard.
             # TODO - prompt user instead with get_response
             self.speak_dialog("failed_extract_number")
             return
@@ -62,7 +73,7 @@ class CountSkill(OVOSSkill):
         ordinal = (not self.voc_match(utterance, "cardinal", lang=sess.lang) and
                     self.voc_match(utterance, "ordinal", lang=sess.lang))
         self.active_sessions[sess.session_id] = True
-        if self.voc_match(utterance, "infinity", self.lang):
+        if infinite:
             n = 1
             while True:
                 if not self.active_sessions[sess.session_id]:
