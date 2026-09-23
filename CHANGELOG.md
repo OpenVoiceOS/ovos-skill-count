@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.5a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.5a3) (2026-09-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.5a2...0.3.5a3)
+
+**Merged pull requests:**
+
+- translate\(ca-ES\): re-cut the surviving line from \#62 [\#100](https://github.com/OpenVoiceOS/ovos-skill-count/pull/100) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.5a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.3.5a2) (2026-09-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.5a1...0.3.5a2)
