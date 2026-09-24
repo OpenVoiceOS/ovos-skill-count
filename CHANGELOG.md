@@ -1,12 +1,19 @@
 # Changelog
 
+## [0.5.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.1a1) (2026-09-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.0a1...0.5.1a1)
+
+**Merged pull requests:**
+
+- fix\(de-DE\): punctuate failed\_extract\_number, drop unnatural für immer [\#112](https://github.com/OpenVoiceOS/ovos-skill-count/pull/112) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.5.0a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.0a1) (2026-09-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.4.0a2...0.5.0a1)
 
 **Merged pull requests:**
 
-- fix\(de-DE\): punctuate failed\_extract\_number, drop unnatural für immer [\#112](https://github.com/OpenVoiceOS/ovos-skill-count/pull/112) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 - feat\(fa-IR\): count\_to\_n.intent, so Persian stops resolving to Catalan [\#111](https://github.com/OpenVoiceOS/ovos-skill-count/pull/111) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [0.4.0a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.4.0a2) (2026-09-24)
@@ -329,10 +336,6 @@
 ## [0.0.2a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a2) (2025-06-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2a1...0.0.2a2)
-
-**Merged pull requests:**
-
-- Release 0.0.2a2 [\#5](https://github.com/OpenVoiceOS/ovos-skill-count/pull/5) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2a1) (2025-06-15)
 
