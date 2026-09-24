@@ -32,8 +32,8 @@ INTENT_NAME = "count_to_n"
 END2END_DIR = Path(__file__).parent
 
 LANGS = [
-    "en-US", "ca-ES", "da-DK", "de-DE", "es-ES", "eu-ES", "fr-FR", "gl-ES",
-    "it-IT", "kab", "nl-NL", "oc-FR", "pt-BR", "pt-PT", "sv-SE",
+    "en-US", "ca-ES", "da-DK", "de-DE", "es-ES", "eu-ES", "fa-IR", "fr-FR",
+    "gl-ES", "it-IT", "kab", "nl-NL", "oc-FR", "pt-BR", "pt-PT", "sv-SE",
 ]
 
 

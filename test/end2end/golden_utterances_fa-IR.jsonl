@@ -1,0 +1,5 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ۱۰ بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ابد بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ۲۰ با مقیاس بزرگ بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "می‌تونی تا ۵ بشماری", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "شروع کن به شمردن تا بی‌نهایت", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
