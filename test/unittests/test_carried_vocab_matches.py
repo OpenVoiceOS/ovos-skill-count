@@ -34,13 +34,25 @@ CARRIED = [
     ("es-ES", "ordinal", "números en orden"),
     ("es-ES", "infinity", "para siempre"),
     ("es-ES", "infinity", "infinidad"),
+    # #62's da-DK and fa-IR halves, carried on top of #105.
+    ("da-DK", "ordinal", "orden tal"),
+    ("da-DK", "ordinal", "ordnet tal"),
+    ("da-DK", "ordinal", "ordinal tal"),
+    ("fa-IR", "cardinal", "اعداد اصلی"),
+    ("fa-IR", "cardinal", "اعداد کاردینال"),
+    ("fa-IR", "ordinal", "اعداد ترتیبی"),
+    ("fa-IR", "infinity", "تا ابد"),
+    ("fa-IR", "infinity", "تا بی‌نهایت"),
+    ("fa-IR", "long_scale", "مقیاس بزرگ"),
+    ("fa-IR", "short_scale", "مقیاس کوچیک"),
 ]
 
 #: The word each new surface must NOT be confused with. `voc_match` on the
 #: other file of the same locale must refuse it, so a test that passes
 #: because every file matches everything is caught.
 OTHER_VOC = {"cardinal": "ordinal", "ordinal": "cardinal",
-             "infinity": "cardinal"}
+             "infinity": "cardinal",
+             "long_scale": "short_scale", "short_scale": "long_scale"}
 
 
 class TestTheCarriedVocabularyMatches(unittest.TestCase):
