@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.4.0a2) (2026-09-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.4.0a1...0.4.0a2)
+
+**Merged pull requests:**
+
+- translate: carry what \#62 really adds for da-DK and fa-IR [\#109](https://github.com/OpenVoiceOS/ovos-skill-count/pull/109) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.4.0a1) (2026-09-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.3.5a6...0.4.0a1)
@@ -326,7 +334,6 @@
 **Merged pull requests:**
 
 - Release 0.0.2a1 [\#2](https://github.com/OpenVoiceOS/ovos-skill-count/pull/2) ([github-actions[bot]](https://github.com/apps/github-actions))
-- fix: better error handling [\#1](https://github.com/OpenVoiceOS/ovos-skill-count/pull/1) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.0.1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.1) (2025-06-15)
 
