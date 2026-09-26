@@ -24,7 +24,11 @@ test = [
     "pytest-timeout>=2.0.0",
     "ovoscope>=1.5.0,<2.0.0",
     "ovos-bus-client",
-    "ovos-core[plugins]>=2.0.0a1"
+    "ovos-core[plugins]>=2.0.0a1",
+    # test_locale_lines_are_token_unique reads the tokenizer the consumer
+    # trains on. ovos-core[plugins] does not pull padatious, and fann2 is
+    # optional, so the import costs no native build.
+    "ovos-padatious"
 ]
 
 [project.urls]
