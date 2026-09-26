@@ -2,3 +2,4 @@
 {"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til 20 i lang skala", "lang": "da-DK", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til fem", "lang": "da-DK", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til fem med ordinal tal", "lang": "da-DK", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl for evigt", "lang": "da-DK", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
