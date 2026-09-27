@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.2a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.2a3) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.2a2...0.5.2a3)
+
+**Merged pull requests:**
+
+- translate: add de-DE "für immer" to infinity.voc [\#62](https://github.com/OpenVoiceOS/ovos-skill-count/pull/62) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.5.2a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.2a2) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.2a1...0.5.2a2)
@@ -332,10 +340,6 @@
 ## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a1) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.2...0.0.3a1)
-
-**Merged pull requests:**
-
-- chore: Configure Renovate [\#12](https://github.com/OpenVoiceOS/ovos-skill-count/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [0.0.2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.2) (2025-06-15)
 
