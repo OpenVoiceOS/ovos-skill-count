@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "policz do 35", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "pl-PL", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zacznij liczyć do 7 liczbami porządkowymi", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "pl-PL", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "policz do nieskończoności", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "pl-PL", "machine_generated": true}
