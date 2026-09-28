@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.0a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.2a5...0.6.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): draft pl-PL and ru-RU through the intent generator [\#124](https://github.com/OpenVoiceOS/ovos-skill-count/pull/124) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.5.2a5](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.2a5) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.2a4...0.5.2a5)
