@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.2a4](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.2a4) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.2a3...0.5.2a4)
+
+**Merged pull requests:**
+
+- locale: draft es-CO from es-ES [\#120](https://github.com/OpenVoiceOS/ovos-skill-count/pull/120) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.5.2a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.5.2a3) (2026-09-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.5.2a2...0.5.2a3)
@@ -332,10 +340,6 @@
 ## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.3a1...0.0.3a2)
-
-**Merged pull requests:**
-
-- chore\(deps\): update dependency python to 3.14 [\#13](https://github.com/OpenVoiceOS/ovos-skill-count/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a1) (2025-12-19)
 
