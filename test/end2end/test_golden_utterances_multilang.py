@@ -27,7 +27,6 @@ import pytest
 from ovoscope import get_minicroft
 
 SKILL_ID = "ovos-skill-count.openvoiceos"
-INTENT_NAME = "count_to_n"
 
 END2END_DIR = Path(__file__).parent
 
@@ -38,19 +37,10 @@ assert LANGS, "no golden_utterances_<lang>.jsonl files found"
 
 def _load_rows(lang):
     path = END2END_DIR / f"golden_utterances_{lang}.jsonl"
-    rows = []
-    needs_manual = 0
+    # needs_manual marks a row no native speaker vouched for; it still runs.
     with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            row = json.loads(line)
-            if row.get("needs_manual"):
-                needs_manual += 1
-                continue
-            rows.append(row)
-    assert rows or needs_manual, f"{lang}: no golden rows"
+        rows = [json.loads(line) for line in f if line.strip()]
+    assert rows, f"{lang}: no golden rows"
     return rows
 
 
@@ -65,10 +55,6 @@ def _golden_id(row):
 
 
 GOLDEN_ROWS = [pytest.param(r, id=_golden_id(r)) for r in ALL_ROWS]
-
-# Real locale-content defects found and fixed in-place during this pass
-# (red-before/green-after verified), keyed by (lang, utterance):
-KNOWN_BUGS = {}
 
 
 @pytest.fixture(scope="module")
@@ -100,10 +86,14 @@ def test_golden_utterance_multilang(minicroft_factory, row):
     container = _container(mc, row["lang"])
     match = container.calc_intent(row["utterance"])
     matched_name = match["name"] if match else None
-    expected = f"{SKILL_ID}:{INTENT_NAME}"
-    bug_key = (row["lang"], row["utterance"])
-    if bug_key in KNOWN_BUGS and matched_name != expected:
-        pytest.xfail(reason=f"known-bug: {KNOWN_BUGS[bug_key]}")
+    expected = f"{SKILL_ID}:{row['intent_label']}"
     assert matched_name == expected, (
         f"[{row['lang']}] {row['utterance']!r}: expected {expected!r}, got {matched_name!r}"
     )
+
+
+def test_every_shipping_locale_has_a_golden_file():
+    golden = {p.stem.split("_", 2)[2] for p in END2END_DIR.glob("golden_utterances_*.jsonl")}
+    locale_root = END2END_DIR.parents[1] / "ovos_skill_count" / "locale"
+    shipping = {d.name for d in locale_root.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"
