@@ -1,0 +1,4 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta 10", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": true, "lang": "es-CO", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta cinco con números cardinales", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": true, "lang": "es-CO", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta para siempre", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": true, "lang": "es-CO", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta infinitamente usando números ordinales en escala corta", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": true, "lang": "es-CO", "machine_generated": true}

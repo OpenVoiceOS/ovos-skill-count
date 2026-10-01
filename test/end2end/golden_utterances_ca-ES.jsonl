@@ -1,0 +1,4 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a deu", "lang": "ca-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a 20  en escala llarga", "lang": "ca-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta per sempre", "lang": "ca-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a cinc amb nombres cardinals", "lang": "ca-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
