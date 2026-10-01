@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.1a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.1a2) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.1a1...0.6.1a2)
+
+**Merged pull requests:**
+
+- test: golden utterances for every intent in every shipped locale [\#127](https://github.com/OpenVoiceOS/ovos-skill-count/pull/127) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.6.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.1a1) (2026-09-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.0a1...0.6.1a1)
