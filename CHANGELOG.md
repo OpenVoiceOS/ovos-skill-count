@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.2a1) (2026-10-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.1a2...0.6.2a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): da-DK cardinal.voc holds only the lines a Danish speaker wrote [\#129](https://github.com/OpenVoiceOS/ovos-skill-count/pull/129) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.6.1a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.1a2) (2026-10-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.1a1...0.6.1a2)
@@ -274,19 +282,19 @@
 
 ## [0.0.8a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.8a1) (2026-08-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a2...0.0.8a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.8a1)
 
 **Merged pull requests:**
 
 - fix: use a {number} slot instead of the padatious-only \# wildcard [\#55](https://github.com/OpenVoiceOS/ovos-skill-count/pull/55) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a2) (2026-08-26)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a3...0.0.7a2)
-
 ## [0.0.7a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a3) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a2...0.0.7a3)
+
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a2) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.7a1...0.0.7a2)
 
 **Merged pull requests:**
 
