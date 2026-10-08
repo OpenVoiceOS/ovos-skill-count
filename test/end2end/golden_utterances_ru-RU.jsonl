@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "посчитай до 35", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "ru-RU", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "начни считать до 7 порядковыми числами", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "ru-RU", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "посчитай до бесконечности", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "ru-RU", "machine_generated": true}

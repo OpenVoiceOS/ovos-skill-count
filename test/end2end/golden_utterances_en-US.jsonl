@@ -1,0 +1,11 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count forever", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count forever in long scale", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count forever in short scale", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count forever using long scale", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count forever using short scale", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count to ten", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count to 20", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count to 3 in long scale", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count to five using ordinal numbers", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "can you count to five", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "count from one to twenty", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "en-US", "machine_generated": false}
