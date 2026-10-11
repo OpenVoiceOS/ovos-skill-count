@@ -77,6 +77,131 @@ count to {number} with ordinal numbers in long scale
 count to {number} with ordinal numbers in short scale
 count to {number} with ordinal numbers using long scale
 count to {number} with ordinal numbers using short scale
+count to infinity
+count to infinity  in long scale
+count to infinity  in short scale
+count to infinity  using long scale
+count to infinity  using short scale
+count to infinity using cardinal numbers
+count to infinity using cardinal numbers in long scale
+count to infinity using cardinal numbers in short scale
+count to infinity using cardinal numbers using long scale
+count to infinity using cardinal numbers using short scale
+count to infinity using ordinal numbers
+count to infinity using ordinal numbers in long scale
+count to infinity using ordinal numbers in short scale
+count to infinity using ordinal numbers using long scale
+count to infinity using ordinal numbers using short scale
+count to infinity with cardinal numbers
+count to infinity with cardinal numbers in long scale
+count to infinity with cardinal numbers in short scale
+count to infinity with cardinal numbers using long scale
+count to infinity with cardinal numbers using short scale
+count to infinity with ordinal numbers
+count to infinity with ordinal numbers in long scale
+count to infinity with ordinal numbers in short scale
+count to infinity with ordinal numbers using long scale
+count to infinity with ordinal numbers using short scale
+start counting forever
+start counting forever  in long scale
+start counting forever  in short scale
+start counting forever  using long scale
+start counting forever  using short scale
+start counting forever using cardinal numbers
+start counting forever using cardinal numbers in long scale
+start counting forever using cardinal numbers in short scale
+start counting forever using cardinal numbers using long scale
+start counting forever using cardinal numbers using short scale
+start counting forever using ordinal numbers
+start counting forever using ordinal numbers in long scale
+start counting forever using ordinal numbers in short scale
+start counting forever using ordinal numbers using long scale
+start counting forever using ordinal numbers using short scale
+start counting forever with cardinal numbers
+start counting forever with cardinal numbers in long scale
+start counting forever with cardinal numbers in short scale
+start counting forever with cardinal numbers using long scale
+start counting forever with cardinal numbers using short scale
+start counting forever with ordinal numbers
+start counting forever with ordinal numbers in long scale
+start counting forever with ordinal numbers in short scale
+start counting forever with ordinal numbers using long scale
+start counting forever with ordinal numbers using short scale
+start counting infinitely
+start counting infinitely  in long scale
+start counting infinitely  in short scale
+start counting infinitely  using long scale
+start counting infinitely  using short scale
+start counting infinitely using cardinal numbers
+start counting infinitely using cardinal numbers in long scale
+start counting infinitely using cardinal numbers in short scale
+start counting infinitely using cardinal numbers using long scale
+start counting infinitely using cardinal numbers using short scale
+start counting infinitely using ordinal numbers
+start counting infinitely using ordinal numbers in long scale
+start counting infinitely using ordinal numbers in short scale
+start counting infinitely using ordinal numbers using long scale
+start counting infinitely using ordinal numbers using short scale
+start counting infinitely with cardinal numbers
+start counting infinitely with cardinal numbers in long scale
+start counting infinitely with cardinal numbers in short scale
+start counting infinitely with cardinal numbers using long scale
+start counting infinitely with cardinal numbers using short scale
+start counting infinitely with ordinal numbers
+start counting infinitely with ordinal numbers in long scale
+start counting infinitely with ordinal numbers in short scale
+start counting infinitely with ordinal numbers using long scale
+start counting infinitely with ordinal numbers using short scale
+start counting to {number}
+start counting to {number}  in long scale
+start counting to {number}  in short scale
+start counting to {number}  using long scale
+start counting to {number}  using short scale
+start counting to {number} using cardinal numbers
+start counting to {number} using cardinal numbers in long scale
+start counting to {number} using cardinal numbers in short scale
+start counting to {number} using cardinal numbers using long scale
+start counting to {number} using cardinal numbers using short scale
+start counting to {number} using ordinal numbers
+start counting to {number} using ordinal numbers in long scale
+start counting to {number} using ordinal numbers in short scale
+start counting to {number} using ordinal numbers using long scale
+start counting to {number} using ordinal numbers using short scale
+start counting to {number} with cardinal numbers
+start counting to {number} with cardinal numbers in long scale
+start counting to {number} with cardinal numbers in short scale
+start counting to {number} with cardinal numbers using long scale
+start counting to {number} with cardinal numbers using short scale
+start counting to {number} with ordinal numbers
+start counting to {number} with ordinal numbers in long scale
+start counting to {number} with ordinal numbers in short scale
+start counting to {number} with ordinal numbers using long scale
+start counting to {number} with ordinal numbers using short scale
+start counting to infinity
+start counting to infinity  in long scale
+start counting to infinity  in short scale
+start counting to infinity  using long scale
+start counting to infinity  using short scale
+start counting to infinity using cardinal numbers
+start counting to infinity using cardinal numbers in long scale
+start counting to infinity using cardinal numbers in short scale
+start counting to infinity using cardinal numbers using long scale
+start counting to infinity using cardinal numbers using short scale
+start counting to infinity using ordinal numbers
+start counting to infinity using ordinal numbers in long scale
+start counting to infinity using ordinal numbers in short scale
+start counting to infinity using ordinal numbers using long scale
+start counting to infinity using ordinal numbers using short scale
+start counting to infinity with cardinal numbers
+start counting to infinity with cardinal numbers in long scale
+start counting to infinity with cardinal numbers in short scale
+start counting to infinity with cardinal numbers using long scale
+start counting to infinity with cardinal numbers using short scale
+start counting to infinity with ordinal numbers
+start counting to infinity with ordinal numbers in long scale
+start counting to infinity with ordinal numbers in short scale
+start counting to infinity with ordinal numbers using long scale
+start counting to infinity with ordinal numbers using short scale
 count to 0
 count to 0  in long scale
 count to 0  in short scale
@@ -2602,106 +2727,6 @@ count to 99 with ordinal numbers in long scale
 count to 99 with ordinal numbers in short scale
 count to 99 with ordinal numbers using long scale
 count to 99 with ordinal numbers using short scale
-count to infinity
-count to infinity  in long scale
-count to infinity  in short scale
-count to infinity  using long scale
-count to infinity  using short scale
-count to infinity using cardinal numbers
-count to infinity using cardinal numbers in long scale
-count to infinity using cardinal numbers in short scale
-count to infinity using cardinal numbers using long scale
-count to infinity using cardinal numbers using short scale
-count to infinity using ordinal numbers
-count to infinity using ordinal numbers in long scale
-count to infinity using ordinal numbers in short scale
-count to infinity using ordinal numbers using long scale
-count to infinity using ordinal numbers using short scale
-count to infinity with cardinal numbers
-count to infinity with cardinal numbers in long scale
-count to infinity with cardinal numbers in short scale
-count to infinity with cardinal numbers using long scale
-count to infinity with cardinal numbers using short scale
-count to infinity with ordinal numbers
-count to infinity with ordinal numbers in long scale
-count to infinity with ordinal numbers in short scale
-count to infinity with ordinal numbers using long scale
-count to infinity with ordinal numbers using short scale
-start counting forever
-start counting forever  in long scale
-start counting forever  in short scale
-start counting forever  using long scale
-start counting forever  using short scale
-start counting forever using cardinal numbers
-start counting forever using cardinal numbers in long scale
-start counting forever using cardinal numbers in short scale
-start counting forever using cardinal numbers using long scale
-start counting forever using cardinal numbers using short scale
-start counting forever using ordinal numbers
-start counting forever using ordinal numbers in long scale
-start counting forever using ordinal numbers in short scale
-start counting forever using ordinal numbers using long scale
-start counting forever using ordinal numbers using short scale
-start counting forever with cardinal numbers
-start counting forever with cardinal numbers in long scale
-start counting forever with cardinal numbers in short scale
-start counting forever with cardinal numbers using long scale
-start counting forever with cardinal numbers using short scale
-start counting forever with ordinal numbers
-start counting forever with ordinal numbers in long scale
-start counting forever with ordinal numbers in short scale
-start counting forever with ordinal numbers using long scale
-start counting forever with ordinal numbers using short scale
-start counting infinitely
-start counting infinitely  in long scale
-start counting infinitely  in short scale
-start counting infinitely  using long scale
-start counting infinitely  using short scale
-start counting infinitely using cardinal numbers
-start counting infinitely using cardinal numbers in long scale
-start counting infinitely using cardinal numbers in short scale
-start counting infinitely using cardinal numbers using long scale
-start counting infinitely using cardinal numbers using short scale
-start counting infinitely using ordinal numbers
-start counting infinitely using ordinal numbers in long scale
-start counting infinitely using ordinal numbers in short scale
-start counting infinitely using ordinal numbers using long scale
-start counting infinitely using ordinal numbers using short scale
-start counting infinitely with cardinal numbers
-start counting infinitely with cardinal numbers in long scale
-start counting infinitely with cardinal numbers in short scale
-start counting infinitely with cardinal numbers using long scale
-start counting infinitely with cardinal numbers using short scale
-start counting infinitely with ordinal numbers
-start counting infinitely with ordinal numbers in long scale
-start counting infinitely with ordinal numbers in short scale
-start counting infinitely with ordinal numbers using long scale
-start counting infinitely with ordinal numbers using short scale
-start counting to {number}
-start counting to {number}  in long scale
-start counting to {number}  in short scale
-start counting to {number}  using long scale
-start counting to {number}  using short scale
-start counting to {number} using cardinal numbers
-start counting to {number} using cardinal numbers in long scale
-start counting to {number} using cardinal numbers in short scale
-start counting to {number} using cardinal numbers using long scale
-start counting to {number} using cardinal numbers using short scale
-start counting to {number} using ordinal numbers
-start counting to {number} using ordinal numbers in long scale
-start counting to {number} using ordinal numbers in short scale
-start counting to {number} using ordinal numbers using long scale
-start counting to {number} using ordinal numbers using short scale
-start counting to {number} with cardinal numbers
-start counting to {number} with cardinal numbers in long scale
-start counting to {number} with cardinal numbers in short scale
-start counting to {number} with cardinal numbers using long scale
-start counting to {number} with cardinal numbers using short scale
-start counting to {number} with ordinal numbers
-start counting to {number} with ordinal numbers in long scale
-start counting to {number} with ordinal numbers in short scale
-start counting to {number} with ordinal numbers using long scale
-start counting to {number} with ordinal numbers using short scale
 start counting to 0
 start counting to 0  in long scale
 start counting to 0  in short scale
@@ -5227,28 +5252,3 @@ start counting to 99 with ordinal numbers in long scale
 start counting to 99 with ordinal numbers in short scale
 start counting to 99 with ordinal numbers using long scale
 start counting to 99 with ordinal numbers using short scale
-start counting to infinity
-start counting to infinity  in long scale
-start counting to infinity  in short scale
-start counting to infinity  using long scale
-start counting to infinity  using short scale
-start counting to infinity using cardinal numbers
-start counting to infinity using cardinal numbers in long scale
-start counting to infinity using cardinal numbers in short scale
-start counting to infinity using cardinal numbers using long scale
-start counting to infinity using cardinal numbers using short scale
-start counting to infinity using ordinal numbers
-start counting to infinity using ordinal numbers in long scale
-start counting to infinity using ordinal numbers in short scale
-start counting to infinity using ordinal numbers using long scale
-start counting to infinity using ordinal numbers using short scale
-start counting to infinity with cardinal numbers
-start counting to infinity with cardinal numbers in long scale
-start counting to infinity with cardinal numbers in short scale
-start counting to infinity with cardinal numbers using long scale
-start counting to infinity with cardinal numbers using short scale
-start counting to infinity with ordinal numbers
-start counting to infinity with ordinal numbers in long scale
-start counting to infinity with ordinal numbers in short scale
-start counting to infinity with ordinal numbers using long scale
-start counting to infinity with ordinal numbers using short scale

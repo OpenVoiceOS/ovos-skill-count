@@ -177,6 +177,31 @@ policz do {number} używając liczb porządkowych w skali długiej
 policz do {number} używając liczb porządkowych w skali krótkiej
 policz do {number} używając liczb porządkowych używając skali długiej
 policz do {number} używając liczb porządkowych używając skali krótkiej
+zacznij liczyć do {number}
+zacznij liczyć do {number}  w skali długiej
+zacznij liczyć do {number}  w skali krótkiej
+zacznij liczyć do {number}  używając skali długiej
+zacznij liczyć do {number}  używając skali krótkiej
+zacznij liczyć do {number} liczbami głównymi
+zacznij liczyć do {number} liczbami głównymi w skali długiej
+zacznij liczyć do {number} liczbami głównymi w skali krótkiej
+zacznij liczyć do {number} liczbami głównymi używając skali długiej
+zacznij liczyć do {number} liczbami głównymi używając skali krótkiej
+zacznij liczyć do {number} liczbami porządkowymi
+zacznij liczyć do {number} liczbami porządkowymi w skali długiej
+zacznij liczyć do {number} liczbami porządkowymi w skali krótkiej
+zacznij liczyć do {number} liczbami porządkowymi używając skali długiej
+zacznij liczyć do {number} liczbami porządkowymi używając skali krótkiej
+zacznij liczyć do {number} używając liczb głównych
+zacznij liczyć do {number} używając liczb głównych w skali długiej
+zacznij liczyć do {number} używając liczb głównych w skali krótkiej
+zacznij liczyć do {number} używając liczb głównych używając skali długiej
+zacznij liczyć do {number} używając liczb głównych używając skali krótkiej
+zacznij liczyć do {number} używając liczb porządkowych
+zacznij liczyć do {number} używając liczb porządkowych w skali długiej
+zacznij liczyć do {number} używając liczb porządkowych w skali krótkiej
+zacznij liczyć do {number} używając liczb porządkowych używając skali długiej
+zacznij liczyć do {number} używając liczb porządkowych używając skali krótkiej
 policz do 0
 policz do 0  w skali długiej
 policz do 0  w skali krótkiej
@@ -2702,31 +2727,6 @@ policz do 100 używając liczb porządkowych w skali długiej
 policz do 100 używając liczb porządkowych w skali krótkiej
 policz do 100 używając liczb porządkowych używając skali długiej
 policz do 100 używając liczb porządkowych używając skali krótkiej
-zacznij liczyć do {number}
-zacznij liczyć do {number}  w skali długiej
-zacznij liczyć do {number}  w skali krótkiej
-zacznij liczyć do {number}  używając skali długiej
-zacznij liczyć do {number}  używając skali krótkiej
-zacznij liczyć do {number} liczbami głównymi
-zacznij liczyć do {number} liczbami głównymi w skali długiej
-zacznij liczyć do {number} liczbami głównymi w skali krótkiej
-zacznij liczyć do {number} liczbami głównymi używając skali długiej
-zacznij liczyć do {number} liczbami głównymi używając skali krótkiej
-zacznij liczyć do {number} liczbami porządkowymi
-zacznij liczyć do {number} liczbami porządkowymi w skali długiej
-zacznij liczyć do {number} liczbami porządkowymi w skali krótkiej
-zacznij liczyć do {number} liczbami porządkowymi używając skali długiej
-zacznij liczyć do {number} liczbami porządkowymi używając skali krótkiej
-zacznij liczyć do {number} używając liczb głównych
-zacznij liczyć do {number} używając liczb głównych w skali długiej
-zacznij liczyć do {number} używając liczb głównych w skali krótkiej
-zacznij liczyć do {number} używając liczb głównych używając skali długiej
-zacznij liczyć do {number} używając liczb głównych używając skali krótkiej
-zacznij liczyć do {number} używając liczb porządkowych
-zacznij liczyć do {number} używając liczb porządkowych w skali długiej
-zacznij liczyć do {number} używając liczb porządkowych w skali krótkiej
-zacznij liczyć do {number} używając liczb porządkowych używając skali długiej
-zacznij liczyć do {number} używając liczb porządkowych używając skali krótkiej
 zacznij liczyć do 0
 zacznij liczyć do 0  w skali długiej
 zacznij liczyć do 0  w skali krótkiej

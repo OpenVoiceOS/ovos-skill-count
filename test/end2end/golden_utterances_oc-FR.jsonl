@@ -1,3 +1,8 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a detz", "lang": "oc-FR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a 20 en escala longa", "lang": "oc-FR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a cinc", "lang": "oc-FR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a detz, se te plai", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta fins a detz"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a 20 amb l'escala longa, se te plai", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta fins a 20 en escala longa"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "vòli t'ausir comptar fins a cinc", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta fins a cinc"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "vòli que comptes fins a trenta", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "ensaja de comptar fins a vint", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a l'infinit sens t'arrestar", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta d'un a quaranta per ieu", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "pòdes comptar amb los nombres ordinals fins a dètz ?", "lang": "oc-FR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

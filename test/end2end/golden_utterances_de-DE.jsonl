@@ -1,4 +1,9 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle bis 10", "lang": "de-DE", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle bis 20  in langer skala", "lang": "de-DE", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle immer weiter", "lang": "de-DE", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle bis fünf mit ordinalen Zahlen", "lang": "de-DE", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "kannst du bis 10 zählen", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zähle bis 10"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle bis 20 und benutze die lange Skala", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zähle bis 20  in langer skala"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle einfach immer weiter", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zähle immer weiter"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähle bis fünf mit ordinalen Zahlen", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähl bitte bis dreißig", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "ich möchte, dass du bis fünfzig zählst", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähl mal bis hundert", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähl für immer weiter, ohne aufzuhören", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zähl bis zwölf mit Ordnungszahlen", "lang": "de-DE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

@@ -1,3 +1,7 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começar a contar até dez", "lang": "pt-PT", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começar a contar até 20  em escala curta", "lang": "pt-PT", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começar a contar para sempre", "lang": "pt-PT", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começa a contar até dez, por favor", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "começar a contar até dez"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta até 20 na escala curta", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "começar a contar até 20  em escala curta"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "começa a contar para sempre e não pares", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "começar a contar para sempre"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "podes contar até trinta?", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "quero que contes até cinquenta", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta até ao infinito", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta até doze com números ordinais, se faz favor", "lang": "pt-PT", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
