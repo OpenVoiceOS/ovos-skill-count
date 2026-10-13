@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.2a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.2a2) (2026-10-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.2a1...0.6.2a2)
+
+**Merged pull requests:**
+
+- test: gate golden utterances on the m2v pipeline in every locale [\#131](https://github.com/OpenVoiceOS/ovos-skill-count/pull/131) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.6.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.2a1) (2026-10-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.1a2...0.6.2a1)
@@ -301,7 +309,6 @@
 - translate\(it-IT\): update infinity.voc [\#30](https://github.com/OpenVoiceOS/ovos-skill-count/pull/30) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 - translate\(it-IT\): update count\_to\_N.error.dialog [\#29](https://github.com/OpenVoiceOS/ovos-skill-count/pull/29) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 - translate\(it-IT\): update count\_to\_N.intent [\#28](https://github.com/OpenVoiceOS/ovos-skill-count/pull/28) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
-- translate\(it-IT\): update cardinal.voc [\#27](https://github.com/OpenVoiceOS/ovos-skill-count/pull/27) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.7a1) (2026-08-14)
 
@@ -375,7 +382,6 @@
 
 - ci: modernize GitHub workflows [\#32](https://github.com/OpenVoiceOS/ovos-skill-count/pull/32) ([JarbasAl](https://github.com/JarbasAl))
 - fix\(i18n\): normalize locale folders to canonical BCP-47 [\#31](https://github.com/OpenVoiceOS/ovos-skill-count/pull/31) ([JarbasAl](https://github.com/JarbasAl))
-- Add French count locale [\#26](https://github.com/OpenVoiceOS/ovos-skill-count/pull/26) ([goldyfruit](https://github.com/goldyfruit))
 
 ## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a2) (2025-12-19)
 
