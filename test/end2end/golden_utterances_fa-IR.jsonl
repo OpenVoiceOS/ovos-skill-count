@@ -1,5 +1,8 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ۱۰ بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ابد بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ۲۰ با مقیاس بزرگ بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "می‌تونی تا ۵ بشماری", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "شروع کن به شمردن تا بی‌نهایت", "lang": "fa-IR", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "لطفاً تا ۱۰ بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "تا ۱۰ بشمار"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "همین‌طور تا ابد بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "تا ابد بشمار"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "تا ۲۰ بشمار، با مقیاس بزرگ", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "تا ۲۰ با مقیاس بزرگ بشمار"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "می‌تونی برام تا ۵ بشماری؟", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "می‌تونی تا ۵ بشماری"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "شروع کن و تا بی‌نهایت بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "شروع کن به شمردن تا بی‌نهایت"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "یک تا بیست رو برام بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "لطفاً تا پنجاه برام بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "با اعداد ترتیبی برام تا ده بشمار", "lang": "fa-IR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

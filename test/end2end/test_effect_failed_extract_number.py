@@ -16,7 +16,6 @@ SKILL_ID = "ovos-skill-count.openvoiceos"
 
 _PIPELINE = [
     "ovos-adapt-pipeline-plugin-high",
-    "ovos-padatious-pipeline-plugin-high",
     "ovos-padacioso-pipeline-plugin-high",
     "ovos-adapt-pipeline-plugin-medium",
     "ovos-padacioso-pipeline-plugin-medium",

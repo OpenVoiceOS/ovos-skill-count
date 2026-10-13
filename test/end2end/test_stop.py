@@ -81,7 +81,7 @@ class TestStopNoSkills(TestCase):
 class TestCountSkills(TestCase):
 
     PIPELINE = ["ovos-stop-pipeline-plugin-high",
-                "ovos-padatious-pipeline-plugin-high"]
+                "ovos-padacioso-pipeline-plugin-high"]
 
     def setUp(self):
         self.minicroft = get_minicroft([SKILL_ID])

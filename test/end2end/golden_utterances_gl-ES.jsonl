@@ -1,3 +1,7 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata dez", "lang": "gl-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata 20  en escala longa", "lang": "gl-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta para sempre", "lang": "gl-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata dez, por favor", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "conta ata dez"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata 20 usando a escala longa", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "conta ata 20  en escala longa"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "segue contando para sempre", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "conta para sempre"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "podes contar ata trinta?", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "quero que contes ata cincuenta", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata o infinito sen parar", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta ata doce cos números ordinais, por favor", "lang": "gl-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

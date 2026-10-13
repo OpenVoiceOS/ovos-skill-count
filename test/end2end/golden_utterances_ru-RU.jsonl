@@ -1,3 +1,7 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "посчитай до 35", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "ru-RU", "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "начни считать до 7 порядковыми числами", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "ru-RU", "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "посчитай до бесконечности", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "lang": "ru-RU", "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "посчитай до 35 для меня", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "посчитай до 35"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "начни считать до 7, используя порядковые числительные", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "начни считать до 7 порядковыми числами"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "считай до бесконечности и не останавливайся", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "посчитай до бесконечности"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "ты можешь сосчитать до тридцати?", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "я хочу, чтобы ты посчитал до пятидесяти", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "сосчитай от одного до двадцати", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "посчитай порядковыми числами до двенадцати", "lang": "ru-RU", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

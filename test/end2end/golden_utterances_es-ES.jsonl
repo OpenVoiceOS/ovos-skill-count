@@ -1,4 +1,9 @@
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta diez", "lang": "es-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta 20  en escala larga", "lang": "es-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta para siempre", "lang": "es-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
-{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta cinco con números en orden", "lang": "es-ES", "intent_label": "count_to_n", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta diez, por favor", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "cuenta hasta diez"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta 20 usando la escala larga", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "cuenta hasta 20  en escala larga"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "sigue contando para siempre", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "cuenta para siempre"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta cinco con números en orden", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "¿puedes contar hasta treinta?", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "quiero que cuentes hasta cincuenta", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta cien en voz alta", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta el infinito sin parar", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "cuenta hasta doce con los números ordinales, por favor", "lang": "es-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
