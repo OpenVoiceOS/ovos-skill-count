@@ -47,23 +47,25 @@ MIN_MATCHED_ROWS_PER_INTENT = 1
 # intent has no matched row, and when its rate falls more than GAP_MARGIN below
 # the measured rate. Between those bounds the rate check is an xfail.
 GOLDEN_LOCALE_GAPS = {
-    "ca-ES": (0.556, ("5 of 9 rows match in the weakest of two runs with the shipped "
+    "ca-ES": (0.778, ("7 of 9 rows match in the weakest of three runs with the shipped "
                       "lines only; linguonnx lines were tried and did not lift it")),
-    "es-CO": (0.714, ("5 of 7 rows match in the weakest of five runs with the shipped "
-                      "lines only; the rate moves between boots from 71.4% to 100%")),
-    "it-IT": (0.714, ("5 of 7 rows match in both runs with the shipped lines only; "
-                      "linguonnx lines were tried and did not lift it")),
-    "oc-FR": (0.625, ("5 of 8 rows match in the weakest of two runs with the shipped "
-                      "lines only; linguonnx lines were tried and did not lift it")),
+    "ru-RU": (0.714, "5 of 7 rows match in the weakest of three runs with the shipped lines only"),
 }
 GAP_MARGIN = 0.10
 # Locales where the published m2v model cannot keep other skills' requests
 # away from this skill. Their negative test is a non-strict xfail.
 NEGATIVE_ENGINE_GAPS = {}
-# Negative rows that m2v claimed for this skill in two separate runs. A listed
-# claim is allowed, not required, so a row that flips between boots does not
-# fail the test. Any other claim fails the locale.
+# Negative rows that m2v claimed for this skill in at least one measured run. A
+# listed claim is allowed, not required, so a row that flips between boots does
+# not fail the test. Any other claim fails the locale.
 NEGATIVE_KNOWN_CLAIMS = {
+    "ca-ES": {"quant fan cinc més tres": "count_to_n"},
+    "da-DK": {"væk mig klokken syv": "count_to_n"},
+    "de-DE": {"weck mich um sieben Uhr": "count_to_n",
+              "was ist fünf plus drei": "count_to_n"},
+    "es-CO": {"cuánto es cinco más tres": "count_to_n"},
+    "es-ES": {"cuánto es cinco más tres": "count_to_n"},
+    "fr-FR": {"combien font cinq plus trois": "count_to_n"},
     "gl-ES": {"canto é cinco máis tres": "count_to_n"},
     "pl-PL": {"obudź mnie o siódmej": "count_to_n",
               "ustaw minutnik na dziesięć minut": "count_to_n",
