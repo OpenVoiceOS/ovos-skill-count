@@ -10,23 +10,18 @@ the dialog is actually spoken.
 """
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-count.openvoiceos"
 
-_PIPELINE = [
-    "ovos-adapt-pipeline-plugin-high",
-    "ovos-padacioso-pipeline-plugin-high",
-    "ovos-adapt-pipeline-plugin-medium",
-    "ovos-padacioso-pipeline-plugin-medium",
-    "ovos-adapt-pipeline-plugin-low",
-]
+INTENT = f"{SKILL_ID}:count_to_n"
 
 
 def _spoken(mc, utterance, lang, session_id):
     session = Session(session_id)
     session.lang = lang
-    session.pipeline = list(_PIPELINE)
+    session.pipeline = list(PIPELINE)
     session.blacklisted_intents = []
     msg = Message(
         "recognizer_loop:utterance",
@@ -36,6 +31,7 @@ def _spoken(mc, utterance, lang, session_id):
     capture = CaptureSession(mc, eof_msgs=["mycroft.skill.handler.complete"])
     capture.capture(msg, timeout=20)
     messages = capture.finish()
+    TALLY.assert_routed(utterance, INTENT, [m.msg_type for m in messages])
     return [
         m.data.get("meta", {}).get("dialog")
         for m in messages
@@ -44,7 +40,7 @@ def _spoken(mc, utterance, lang, session_id):
 
 
 def test_non_number_utterance_speaks_failed_extract_number_dialog_it_it():
-    mc = get_minicroft([SKILL_ID], lang="it-IT")
+    mc = get_prototype_minicroft([SKILL_ID], lang="it-IT")
     try:
         dialogs = _spoken(mc, "conta fino a banana", "it-IT", "e2e-count-it-banana")
         assert dialogs == ["failed_extract_number"], (
