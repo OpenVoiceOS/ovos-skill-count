@@ -1,0 +1,7 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zenbatu 10 arte", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zenbatu arte 10"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zenbatu 20 arte eskala luzea erabiliz", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zenbatu arte 20  eskalan eskala luzea"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zenbatu bost arte, mesedez", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zenbatu arte bost"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zenbatu infinitura arte", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "hogeita hamar arte zenbatu dezakezu?", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zenbatu ehun arte", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zenbatu hamabi arte zenbaki ordinalak erabiliz", "lang": "eu-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

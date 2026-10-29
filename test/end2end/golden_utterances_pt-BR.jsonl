@@ -1,0 +1,7 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conte até dez, por favor", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "conte até dez"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conte até 20 usando a escala longa", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "conte até 20  em escala longa"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "fica contando para sempre", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "conte para sempre"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "você pode contar até trinta?", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "quero que você conte até cinquenta", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conta até o infinito sem parar", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "conte até doze com números ordinais, por favor", "lang": "pt-BR", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

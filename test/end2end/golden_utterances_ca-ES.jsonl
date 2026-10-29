@@ -1,0 +1,9 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a deu, si us plau", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta fins a deu"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a 20 fent servir l'escala llarga", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta fins a 20  en escala llarga"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "continua comptant per sempre", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta per sempre"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a cinc fent servir els nombres cardinals", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "compta fins a cinc amb nombres cardinals"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "series capaç de comptar fins a trenta?", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "vull que comptis fins a cinquanta", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "compta fins a dotze amb els nombres ordinals, si us plau", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "continua comptant sense aturar-te mai", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "anem a comptar tots junts fins a cent", "lang": "ca-ES", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

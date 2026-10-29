@@ -1,51 +1,37 @@
-# 🧮 Count Skill 
+# Count Skill
 
-**CountSkill** is a simple skill for [Open Voice OS (OVOS)](https://openvoiceos.org) that counts from 1 to any user-specified number — or even infinitely — speaking each number aloud. It supports both **cardinal** and **ordinal** formats and works offline thanks to `ovos-number-parser`.
+CountSkill is a skill for [Open Voice OS (OVOS)](https://openvoiceos.org). It counts aloud from 1 to a number the user gives, or counts without a limit until stopped. It supports cardinal and ordinal formats and works offline, using [ovos-number-parser](https://github.com/OpenVoiceOS/ovos-number-parser) to extract and pronounce numbers.
 
-> 💡 this skill was made with the purpose of testing the stop pipeline and showing how to use `ovos-number-parser`
+## Install
 
----
+```bash
+pip install ovos-skill-count
+```
 
-## 🔧 Features
+## Usage
 
-* 📢 Speaks numbers up to a given limit or infinitely
-* 🔢 Supports cardinal (e.g., one, two) and ordinal (e.g., first, second) formats
-* 🌍 Multilingual support (depending on the configured language)
-* 📴 Fully offline capable — no internet required
-* 🛑 Responds to stop requests mid-count
-* 🧠 Intelligent number extraction from natural language
+Say one of these to start the skill:
 
----
+* "Count to 10"
+* "Can you count to twenty-five?"
+* "Start counting"
+* "Count infinitely"
+* "Count to the 5th"
 
-## 🗣 Example Utterances
+These utterances need matching `*.intent` files in your locale directory.
 
-> These require matching `*.intent` files in your locale directory.
+The skill extracts a number from the utterance with `ovos-number-parser`, then speaks each number up to that limit with `pronounce_number`. It supports short and long scales, and cardinal or ordinal formats, depending on the configured language. If the user asks for infinite counting, the skill counts without a limit until stopped.
 
-* “Count to 10”
-* “Can you count to twenty-five?”
-* “Start counting”
-* “Count infinitely”
-* “Count to the 5th”
-
----
-
-## 🧠 How It Works
-
-* Extracts a number from user utterance using `ovos-number-parser`.
-* Speaks each number up to the limit using `pronounce_number`.
-* Optionally switches between short/long scales and ordinal/cardinal formats.
-* Allows interrupting via `stop` or other cancel commands.
-
-If the user requests **infinite counting**, the skill will count indefinitely until explicitly stopped.
-
----
-
-## 🛑 Stopping the Skill
-
-This skill implements `can_stop()` and `stop_session()` using OVOS session management. It can be interrupted with:
+The skill implements `can_stop()` and `stop_session()` with OVOS session management. Say one of these to stop a count in progress:
 
 * "Stop"
 * "That's enough"
 * "Cancel"
 
----
+## Related projects
+
+* [OpenVoiceOS/ovos-number-parser](https://github.com/OpenVoiceOS/ovos-number-parser) — parses and pronounces numbers; this skill uses it to read numbers aloud.
+
+## License
+
+See [LICENSE](LICENSE).
