@@ -58,3 +58,25 @@ def test_count_to_3_speaks_correct_sequence_it_it():
         )
     finally:
         mc.stop()
+
+
+def test_count_to_half_a_dozen_speaks_six_numbers_en_us():
+    mc = get_prototype_minicroft([SKILL_ID])
+    try:
+        spoken = _spoken_sequence(mc, "count to half a dozen", "en-US", "e2e-count-en-dozen")
+        assert spoken == ["one", "two", "three", "four", "five", "six"], (
+            f"expected one to six, got {spoken!r}"
+        )
+    finally:
+        mc.stop()
+
+
+def test_count_from_one_to_three_stops_at_three_pt_pt():
+    mc = get_prototype_minicroft([SKILL_ID], lang="pt-PT")
+    try:
+        spoken = _spoken_sequence(mc, "conta de um até três", "pt-PT", "e2e-count-pt-from")
+        assert spoken == ["um", "dois", "três"], (
+            f"expected ['um', 'dois', 'três'], got {spoken!r}"
+        )
+    finally:
+        mc.stop()
