@@ -2,8 +2,7 @@ import time
 from fractions import Fraction
 from typing import Dict
 
-from numtag import NumberMention, Scale, tag_numbers
-from numtag.tagger import ARTICLE_CONFIDENCE
+from numtag import NumberMention, Reason, Scale, tag_numbers
 from ovos_bus_client import SessionManager, Session, Message
 from ovos_number_parser import pronounce_number
 from ovos_utils import classproperty
@@ -44,7 +43,7 @@ class CountSkill(OVOSSkill):
         """The last number of the text: "count from one to ten" counts to ten.
         A lone article is no number."""
         mentions = [m for m in tag_numbers(text, lang, scale=scale)
-                    if m.confidence > ARTICLE_CONFIDENCE]
+                    if Reason.ARTICLE not in m.reasons]
         return mentions[-1] if mentions else None
 
     @intent_handler("count_to_n.intent")

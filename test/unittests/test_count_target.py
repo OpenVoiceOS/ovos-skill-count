@@ -49,6 +49,7 @@ def test_a_billion_is_read_in_the_scale_of_the_language(lang, utterance, slot, n
 @pytest.mark.parametrize("lang, utterance, number", [
     ("en-US", "count from one to three", 3),
     ("pt-PT", "conta de um até três", 3),
+    ("pt-PT", "conta até dez uma vez", 10),
 ])
 def test_without_a_slot_the_count_stops_at_the_last_number(lang, utterance, number):
     assert count_bound(lang, utterance, None) == [(1, number + 1)]
