@@ -1,0 +1,7 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "kan du vara snäll och räkna till tio", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "räkna till tio"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "räkna till 20 och använd lång skala", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "räkna till 20 i lång skala"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "skulle du kunna räkna till fem åt mig", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "räkna till fem"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "jag vill att du räknar till femtio", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "räkna till oändligheten utan att sluta", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "räkna till tolv med ordningstal, tack", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "räkna upp till trettio", "lang": "sv-SE", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}

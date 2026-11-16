@@ -1,0 +1,9 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til 10 for mig", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "tæl til 10"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til 20 og brug lang skala", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "tæl til 20 i lang skala"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "kan du tælle til fem", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "tæl til fem"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til fem med ordinal tal", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "bliv ved med at tælle for evigt", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "tæl for evigt"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "vil du tælle til tredive", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl op til halvtreds", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "vil du ikke tælle til hundrede for mig", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "tæl til otte med ordenstal, tak", "lang": "da-DK", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
