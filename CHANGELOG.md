@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.3a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.3a1) (2026-11-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.2a3...0.6.3a1)
+
+**Merged pull requests:**
+
+- fix: read the count target with numtag [\#137](https://github.com/OpenVoiceOS/ovos-skill-count/pull/137) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.6.2a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.6.2a3) (2026-10-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.2a2...0.6.2a3)
@@ -379,10 +387,6 @@
 ## [0.0.3a3](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a3) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.3a2...0.0.3a3)
-
-**Merged pull requests:**
-
-- ci: modernize GitHub workflows [\#32](https://github.com/OpenVoiceOS/ovos-skill-count/pull/32) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a2) (2025-12-19)
 
