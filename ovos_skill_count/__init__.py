@@ -2,7 +2,7 @@ import time
 from fractions import Fraction
 from typing import Dict
 
-from numtag import NumberMention, Reason, Scale, tag_numbers
+from numtag import NumberMention, Reason, Scale, SpokenForm, UnsupportedLanguageError, spell, tag_numbers
 from ovos_bus_client import SessionManager, Session, Message
 from ovos_number_parser import pronounce_number
 from ovos_utils import classproperty
@@ -34,9 +34,16 @@ class CountSkill(OVOSSkill):
 
     def speak_n(self, i: int, lang: str, short_scale: bool = False, ordinals: bool =False):
         try:
-            self.speak(pronounce_number(i, lang=lang, short_scale=short_scale, ordinals=ordinals))
-        except:
-            self.speak(str(i))
+            text = spell(str(i), lang,
+                         form=SpokenForm.ORDINAL if ordinals else SpokenForm.CARDINAL,
+                         scale=Scale.SHORT if short_scale else Scale.LONG)[0].text
+        except UnsupportedLanguageError:
+            # numtag has no writer for this language (eu, fa, kab, oc, pl, ru, sv)
+            try:
+                text = pronounce_number(i, lang=lang, short_scale=short_scale, ordinals=ordinals)
+            except Exception:
+                text = str(i)
+        self.speak(text)
 
     @staticmethod
     def _read_number(text: str, lang: str, scale: Scale | None) -> NumberMention | None:
