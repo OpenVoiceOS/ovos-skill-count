@@ -71,10 +71,12 @@ def test_cardinal_count_speaks_numtag_words_kab():
     assert _spoken("kab", "ḥsu alamma 3") == KABYLE_CARDINALS
 
 
-def test_thousand_takes_the_numeral_one_ru_ru():
-    """numtag tests/gold/ru.jsonl: CLDR RBNF ru %spellout-cardinal-masculine renders 1000 as "одна тысяча"."""
+def test_thousand_is_a_bare_scale_word_ru_ru():
+    """1000 is "тысяча": Русская грамматика (1980) § 1378 declines the bare form
+    ("И. тысяча двести восемьдесят семь"). numtag writes the CLDR form "одна тысяча"
+    only as a variant, and tests/gold/ru.jsonl reads both."""
     spoken = _spoken("ru-RU", "посчитай до 1000 для меня")
-    assert (len(spoken), spoken[-1]) == (1000, "одна тысяча")
+    assert (len(spoken), spoken[-1]) == (1000, "тысяча")
 
 
 def test_compound_cardinal_is_hyphenated_en_us():
