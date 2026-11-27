@@ -1,8 +1,10 @@
 import time
+from fractions import Fraction
 from typing import Dict
 
+from numtag import NumberMention, Reason, Scale, SpokenForm, UnsupportedLanguageError, spell, tag_numbers
 from ovos_bus_client import SessionManager, Session, Message
-from ovos_number_parser import pronounce_number, extract_number
+from ovos_number_parser import pronounce_number
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.decorators import intent_handler
@@ -32,29 +34,47 @@ class CountSkill(OVOSSkill):
 
     def speak_n(self, i: int, lang: str, short_scale: bool = False, ordinals: bool =False):
         try:
-            self.speak(pronounce_number(i, lang=lang, short_scale=short_scale, ordinals=ordinals))
-        except:
-            self.speak(str(i))
+            text = spell(str(i), lang,
+                         form=SpokenForm.ORDINAL if ordinals else SpokenForm.CARDINAL,
+                         scale=Scale.SHORT if short_scale else Scale.LONG)[0].text
+        except UnsupportedLanguageError:
+            # numtag has no writer for this language (fa, oc)
+            try:
+                text = pronounce_number(i, lang=lang, short_scale=short_scale, ordinals=ordinals)
+            except Exception:
+                text = str(i)
+        self.speak(text)
 
-    @intent_handler("count_to_N.intent")
+    @staticmethod
+    def _read_number(text: str, lang: str, scale: Scale | None) -> NumberMention | None:
+        """The last number of the text: "count from one to ten" counts to ten.
+        A lone article is no number."""
+        mentions = [m for m in tag_numbers(text, lang, scale=scale)
+                    if Reason.ARTICLE not in m.reasons]
+        return mentions[-1] if mentions else None
+
+    @intent_handler("count_to_n.intent")
     def handle_how_are_you_intent(self, message):
         sess = SessionManager.get(message)
-        number = message.data.get("number")
         utterance = message.data.get("utterance")
-        use_short = (not self.voc_match(utterance, "long_scale", lang=sess.lang)
-                     and self.voc_match(utterance, "short_scale", lang=sess.lang))
-        short_scale = message.data.get("short_scale", use_short) # TODO - default per language if not explicitly set
-        if number is None:
-            try:
-                number = extract_number(utterance, lang=sess.lang,
-                                        short_scale=short_scale,
-                                        ordinals=True)
-            except:
-                number = None
+        # the scale the user names, else the language's own scale
+        if "short_scale" in message.data:
+            scale = Scale.SHORT if message.data["short_scale"] else Scale.LONG
+        elif self.voc_match(utterance, "long_scale", lang=sess.lang):
+            scale = Scale.LONG
+        elif self.voc_match(utterance, "short_scale", lang=sess.lang):
+            scale = Scale.SHORT
         else:
-            number = int(number)
+            scale = None
+        mention = self._read_number(str(message.data.get("number") or utterance),
+                                    sess.lang, scale)
+        number = int(Fraction(mention.value)) if mention else None
+        short_scale = (scale or (mention and mention.number_scale)) == Scale.SHORT
 
-        if number is None:
+        infinite = self.voc_match(utterance, "infinity", lang=sess.lang)
+        if not infinite and number is None:
+            # "count to infinity"/"count forever" legitimately carry no
+            # number at all, so that path is exempt from this guard.
             # TODO - prompt user instead with get_response
             self.speak_dialog("failed_extract_number")
             return
@@ -62,7 +82,7 @@ class CountSkill(OVOSSkill):
         ordinal = (not self.voc_match(utterance, "cardinal", lang=sess.lang) and
                     self.voc_match(utterance, "ordinal", lang=sess.lang))
         self.active_sessions[sess.session_id] = True
-        if self.voc_match(utterance, "infinity", self.lang):
+        if infinite:
             n = 1
             while True:
                 if not self.active_sessions[sess.session_id]:

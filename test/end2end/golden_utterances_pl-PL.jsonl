@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "policz do 35 dla mnie", "lang": "pl-PL", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "policz do 35"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "zacznij liczyć do 7, używając liczebników porządkowych", "lang": "pl-PL", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "zacznij liczyć do 7 liczbami porządkowymi"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "licz do nieskończoności i nie przestawaj", "lang": "pl-PL", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true, "rewritten_from": "policz do nieskończoności"}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "chcę, żebyś policzył do pięćdziesięciu", "lang": "pl-PL", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "policz od jednego aż do dwudziestu", "lang": "pl-PL", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-count.openvoiceos", "utterance": "policz proszę do dwunastu liczebnikami porządkowymi", "lang": "pl-PL", "intent_label": "count_to_n", "needs_manual": true, "machine_generated": true}
