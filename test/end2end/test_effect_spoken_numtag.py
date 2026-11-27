@@ -56,6 +56,20 @@ def test_ordinal_count_speaks_ordinals(lang, utterance, expected):
     assert _spoken(lang, utterance) == expected
 
 
+# kab: numtag tests/gold/kab.jsonl (languagesandnumbers.com, "Counting in Kabyle").
+KABYLE_CARDINALS = ["yiwen", "sin", "tlata"]
+
+
+def test_cardinal_count_speaks_numtag_words_kab():
+    assert _spoken("kab", "ḥsu alamma 3") == KABYLE_CARDINALS
+
+
+def test_thousand_takes_the_numeral_one_ru_ru():
+    """numtag tests/gold/ru.jsonl: CLDR RBNF ru %spellout-cardinal-masculine renders 1000 as "одна тысяча"."""
+    spoken = _spoken("ru-RU", "посчитай до 1000 для меня")
+    assert (len(spoken), spoken[-1]) == (1000, "одна тысяча")
+
+
 def test_compound_cardinal_is_hyphenated_en_us():
     spoken = _spoken("en-US", "count to 22")
     assert spoken[20:] == ["twenty-one", "twenty-two"]
