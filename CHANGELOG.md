@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.7.1a1) (2026-11-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.7.0a1...0.7.1a1)
+
+**Merged pull requests:**
+
+- fix: speak Russian counts with the numtag 0.44 writer [\#141](https://github.com/OpenVoiceOS/ovos-skill-count/pull/141) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.7.0a1) (2026-11-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.6.3a1...0.7.0a1)
@@ -348,10 +356,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a2...0.0.6a3)
 
-**Merged pull requests:**
-
-- chore: add ovoscope end2end intent-routing tests [\#36](https://github.com/OpenVoiceOS/ovos-skill-count/pull/36) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.6a2) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.6a1...0.0.6a2)
@@ -379,10 +383,6 @@
 ## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.4a1) (2026-06-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.3a4...0.0.4a1)
-
-**Merged pull requests:**
-
-- fix: allow ovos-workshop 9.x [\#38](https://github.com/OpenVoiceOS/ovos-skill-count/pull/38) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.0.3a4](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.3a4) (2026-04-09)
 
