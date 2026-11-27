@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.1a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.7.1a2) (2026-11-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.7.1a1...0.7.1a2)
+
+**Merged pull requests:**
+
+- chore: raise numtag floor to 0.46.0a2 for the sv, eu and pl writers [\#143](https://github.com/OpenVoiceOS/ovos-skill-count/pull/143) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.7.1a1) (2026-11-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.7.0a1...0.7.1a1)
@@ -367,10 +375,6 @@
 ## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.6a1) (2026-07-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.5a1...0.0.6a1)
-
-**Merged pull requests:**
-
-- fix: lowercase intent base name per OVOS-INTENT-2 §2 [\#40](https://github.com/OpenVoiceOS/ovos-skill-count/pull/40) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.5a1) (2026-07-17)
 
