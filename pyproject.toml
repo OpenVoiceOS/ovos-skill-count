@@ -17,7 +17,7 @@ dependencies = [
     "ovos-utils>=0.0.38",
     "ovos-workshop>=9.8.1a1,<10.0.0",
     "ovos-number-parser",
-    "numtag>=0.41.0a2"
+    "numtag>=0.44.0a1"
 ]
 
 [project.optional-dependencies]
