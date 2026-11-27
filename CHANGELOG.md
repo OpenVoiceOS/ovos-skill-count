@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.2a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.7.2a1) (2026-11-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.7.1a2...0.7.2a1)
+
+**Merged pull requests:**
+
+- fix\(test\): ru 1000 is the bare scale word тысяча [\#145](https://github.com/OpenVoiceOS/ovos-skill-count/pull/145) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.7.1a2](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.7.1a2) (2026-11-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.7.1a1...0.7.1a2)
@@ -379,10 +387,6 @@
 ## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.5a1) (2026-07-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-count/compare/0.0.4a1...0.0.5a1)
-
-**Merged pull requests:**
-
-- fix: rename entry-point group to opm.skill [\#41](https://github.com/OpenVoiceOS/ovos-skill-count/pull/41) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-skill-count/tree/0.0.4a1) (2026-06-27)
 
