@@ -25,6 +25,13 @@ ORDINALS = [
     ("de-DE", "zähl bis 3 anhand von ordinalzahlen", ["erste", "zweite", "dritte"]),
     ("nl-NL", "tel tot 3 met behulp van rangtelwoorden", ["eerste", "tweede", "derde"]),
     ("da-DK", "tæl til 3 med ordenstal", ["første", "anden", "tredje"]),
+    # numtag tests/gold/sv.jsonl: "första", "andra", "tredje"
+    ("sv-SE", "räkna till 3 med ordningstal", ["första", "andra", "tredje"]),
+    # numtag tests/gold/eu.jsonl, Euskaltzaindia 18. araua: "lehen", "bigarren", "hirugarren"
+    ("eu-ES", "zenbatu arte 3 erabiliz zenbaki ordinalak", ["lehen", "bigarren", "hirugarren"]),
+    # numtag tests/gold/pl.jsonl, CLDR RBNF pl masculine ordinals. numtag and
+    # ovos-number-parser give the same words here, so the row is a guard.
+    ("pl-PL", "policz do 3 liczbami porządkowymi", ["pierwszy", "drugi", "trzeci"]),
 ]
 
 
