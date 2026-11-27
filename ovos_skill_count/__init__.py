@@ -38,7 +38,7 @@ class CountSkill(OVOSSkill):
                          form=SpokenForm.ORDINAL if ordinals else SpokenForm.CARDINAL,
                          scale=Scale.SHORT if short_scale else Scale.LONG)[0].text
         except UnsupportedLanguageError:
-            # numtag has no writer for this language (eu, fa, oc, pl, sv)
+            # numtag has no writer for this language (fa, oc)
             try:
                 text = pronounce_number(i, lang=lang, short_scale=short_scale, ordinals=ordinals)
             except Exception:
