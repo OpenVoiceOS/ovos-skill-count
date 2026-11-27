@@ -72,9 +72,9 @@ def test_cardinal_count_speaks_numtag_words_kab():
 
 
 def test_thousand_is_a_bare_scale_word_ru_ru():
-    """1000 is "тысяча": Розенталь (1985), § 164, п. 1 г), "тысяча с предшествующим
-    числительным одна рассматривается как существительное". numtag writes the CLDR
-    form "одна тысяча" only as a variant, and tests/gold/ru.jsonl reads both."""
+    """1000 is "тысяча": Русская грамматика (1980) § 1378 declines the bare form
+    ("И. тысяча двести восемьдесят семь"). numtag writes the CLDR form "одна тысяча"
+    only as a variant, and tests/gold/ru.jsonl reads both."""
     spoken = _spoken("ru-RU", "посчитай до 1000 для меня")
     assert (len(spoken), spoken[-1]) == (1000, "тысяча")
 
